@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="stanford-english-corenlp-2016-10-31-models1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/stanford-english-corenlp-2016-10-31-models.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="jar://$USER_HOME$/Downloads/stanford-english-corenlp-2016-10-31-models.jar!/" recursive="false" />
+  </library>
+</component>
