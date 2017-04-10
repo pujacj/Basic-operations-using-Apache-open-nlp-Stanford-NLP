@@ -4,7 +4,7 @@
 		module="entityfinder$sources_2.12"
 		revision="1.0"
 		status="integration"
-		publication="20170410144850"
+		publication="20170410152009"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
