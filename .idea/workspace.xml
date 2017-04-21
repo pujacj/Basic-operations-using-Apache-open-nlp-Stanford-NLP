@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="580271ad-6918-4b02-9cc5-816d1c3844ed" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Basic-operations-using-Apache-open-nlp-Stanford-NLP" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
