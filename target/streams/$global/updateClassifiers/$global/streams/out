@@ -64,6 +64,21 @@
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.apache.lucene#lucene-queries;4.10.3 [compile->compile]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.apache.lucene#lucene-queries;4.10.3 [compile->compile(*)]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.apache.lucene#lucene-queries;4.10.3 [compile->master]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [compile->compile]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]}
+[info] Resolving xml-apis#xml-apis;1.3.03 ...
+[debug] sbt-chain: Checking cache for: dependency: xml-apis#xml-apis;1.3.03 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: xml-apis#xml-apis;1.3.03
+[debug] 	found xml-apis#xml-apis;1.3.03 in sbt-chain
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [compile->runtime(*)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [compile->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [compile->master(compile)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [compile->runtime]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [compile->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [compile->compile(*)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [compile->master]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xalan#xalan;2.7.0 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
@@ -344,6 +359,21 @@
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->compile]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->master]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->master]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [compile->compile]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]}
+[info] Resolving com.apple#AppleJavaExtensions;1.4 ...
+[debug] sbt-chain: Checking cache for: dependency: com.apple#AppleJavaExtensions;1.4 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: com.apple#AppleJavaExtensions;1.4
+[debug] 	found com.apple#AppleJavaExtensions;1.4 in sbt-chain
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [compile->runtime(*)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [compile->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [compile->master(compile)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [compile->runtime]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [compile->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [compile->compile(*)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [compile->master]
 [debug] resolving dependencies for configuration 'runtime'
 [debug] == resolving dependencies for default#entityfinder$sources_2.12;1.0 [runtime]
 [debug] == resolving dependencies for default#entityfinder$sources_2.12;1.0 [compile]
@@ -403,6 +433,20 @@
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.apache.lucene#lucene-queries;4.10.3 [compile->compile]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.apache.lucene#lucene-queries;4.10.3 [compile->compile(*)]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.apache.lucene#lucene-queries;4.10.3 [compile->master]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [compile->compile]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]}
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [compile->runtime(*)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [compile->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [compile->master(compile)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [compile->runtime]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [compile->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [compile->compile(*)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [compile->master]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xalan#xalan;2.7.0 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
@@ -665,6 +709,20 @@
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->compile]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->master]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->master]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [compile->compile]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]}
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [compile->runtime(*)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [compile->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [compile->master(compile)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [compile->runtime]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [compile->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [compile->compile(*)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [compile->master]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.googlecode.efficient-java-matrix-library#ejml;0.23 [runtime->compile]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.googlecode.efficient-java-matrix-library#ejml;0.23 [runtime->runtime(*)]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.googlecode.efficient-java-matrix-library#ejml;0.23 [runtime->compile]
@@ -697,6 +755,14 @@
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.apache.lucene#lucene-queries;4.10.3 [runtime->compile]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.apache.lucene#lucene-queries;4.10.3 [runtime->compile(*)]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.apache.lucene#lucene-queries;4.10.3 [runtime->master]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [runtime->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [runtime->runtime(*)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [runtime->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [runtime->master(compile)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [runtime->runtime]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [runtime->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [runtime->compile(*)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [runtime->master]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xalan#xalan;2.7.0 [runtime->compile]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xalan#xalan;2.7.0 [runtime->runtime(*)]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xalan#xalan;2.7.0 [runtime->compile]
@@ -857,6 +923,14 @@
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.scala-lang#scala-library;2.12.1 [runtime->compile]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.scala-lang#scala-library;2.12.1 [runtime->master]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.scala-lang#scala-library;2.12.1 [runtime->master]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [runtime->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [runtime->runtime(*)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [runtime->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [runtime->master(compile)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [runtime->runtime]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [runtime->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [runtime->compile(*)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [runtime->master]
 [debug] resolving dependencies for configuration 'test'
 [debug] == resolving dependencies for default#entityfinder$sources_2.12;1.0 [test]
 [debug] == resolving dependencies for default#entityfinder$sources_2.12;1.0 [runtime]
@@ -929,6 +1003,23 @@
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.apache.lucene#lucene-queries;4.10.3 [compile->compile]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.apache.lucene#lucene-queries;4.10.3 [compile->compile(*)]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.apache.lucene#lucene-queries;4.10.3 [compile->master]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [compile->compile]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]}
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [compile->runtime(*)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [compile->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [compile->master(compile)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [compile->runtime]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [compile->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [compile->compile(*)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [compile->master]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xalan#xalan;2.7.0 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
@@ -1242,6 +1333,23 @@
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->compile]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->master]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->master]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [compile->compile]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]}
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [compile->runtime(*)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [compile->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [compile->master(compile)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [compile->runtime]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [compile->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [compile->compile(*)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [compile->master]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.googlecode.efficient-java-matrix-library#ejml;0.23 [runtime->compile]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.googlecode.efficient-java-matrix-library#ejml;0.23 [runtime->runtime(*)]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.googlecode.efficient-java-matrix-library#ejml;0.23 [runtime->compile]
@@ -1274,6 +1382,14 @@
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.apache.lucene#lucene-queries;4.10.3 [runtime->compile]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.apache.lucene#lucene-queries;4.10.3 [runtime->compile(*)]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.apache.lucene#lucene-queries;4.10.3 [runtime->master]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [runtime->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [runtime->runtime(*)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [runtime->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [runtime->master(compile)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [runtime->runtime]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [runtime->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [runtime->compile(*)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [runtime->master]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xalan#xalan;2.7.0 [runtime->compile]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xalan#xalan;2.7.0 [runtime->runtime(*)]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xalan#xalan;2.7.0 [runtime->compile]
@@ -1434,6 +1550,14 @@
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.scala-lang#scala-library;2.12.1 [runtime->compile]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.scala-lang#scala-library;2.12.1 [runtime->master]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.scala-lang#scala-library;2.12.1 [runtime->master]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [runtime->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [runtime->runtime(*)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [runtime->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [runtime->master(compile)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [runtime->runtime]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [runtime->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [runtime->compile(*)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [runtime->master]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.googlecode.efficient-java-matrix-library#ejml;0.23 [test->compile]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.googlecode.efficient-java-matrix-library#ejml;0.23 [test->runtime(*)]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.googlecode.efficient-java-matrix-library#ejml;0.23 [test->compile]
@@ -1466,6 +1590,14 @@
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.apache.lucene#lucene-queries;4.10.3 [test->compile]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.apache.lucene#lucene-queries;4.10.3 [test->compile(*)]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.apache.lucene#lucene-queries;4.10.3 [test->master]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [test->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [test->runtime(*)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [test->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [test->master(compile)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [test->runtime]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [test->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [test->compile(*)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [test->master]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xalan#xalan;2.7.0 [test->compile]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xalan#xalan;2.7.0 [test->runtime(*)]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xalan#xalan;2.7.0 [test->compile]
@@ -1626,6 +1758,14 @@
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.scala-lang#scala-library;2.12.1 [test->compile]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.scala-lang#scala-library;2.12.1 [test->master]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.scala-lang#scala-library;2.12.1 [test->master]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [test->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [test->runtime(*)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [test->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [test->master(compile)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [test->runtime]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [test->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [test->compile(*)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [test->master]
 [debug] resolving dependencies for configuration 'provided'
 [debug] == resolving dependencies for default#entityfinder$sources_2.12;1.0 [provided]
 [debug] resolving dependencies for configuration 'optional'
@@ -1713,6 +1853,26 @@
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.apache.lucene#lucene-queries;4.10.3 [compile->compile]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.apache.lucene#lucene-queries;4.10.3 [compile->compile(*)]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.apache.lucene#lucene-queries;4.10.3 [compile->master]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [compile->compile]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]}
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [compile->runtime(*)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [compile->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [compile->master(compile)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [compile->runtime]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [compile->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [compile->compile(*)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [compile->master]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xalan#xalan;2.7.0 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
@@ -2077,6 +2237,26 @@
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->compile]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->master]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->master]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [compile->compile]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]}
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [compile->runtime(*)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [compile->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [compile->master(compile)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [compile->runtime]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [compile->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [compile->compile(*)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [compile->master]
 [debug] == resolving dependencies for default#entityfinder$sources_2.12;1.0 [optional]
 [debug] == resolving dependencies for default#entityfinder$sources_2.12;1.0 [provided]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.googlecode.efficient-java-matrix-library#ejml;0.23 [compile-internal->compile]
@@ -2111,6 +2291,14 @@
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.apache.lucene#lucene-queries;4.10.3 [compile-internal->compile]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.apache.lucene#lucene-queries;4.10.3 [compile-internal->compile(*)]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.apache.lucene#lucene-queries;4.10.3 [compile-internal->master]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [compile-internal->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [compile-internal->runtime(*)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [compile-internal->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [compile-internal->master(compile)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [compile-internal->runtime]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [compile-internal->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [compile-internal->compile(*)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [compile-internal->master]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xalan#xalan;2.7.0 [compile-internal->compile]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xalan#xalan;2.7.0 [compile-internal->runtime(*)]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xalan#xalan;2.7.0 [compile-internal->compile]
@@ -2271,6 +2459,14 @@
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile-internal->compile]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile-internal->master]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile-internal->master]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [compile-internal->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [compile-internal->runtime(*)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [compile-internal->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [compile-internal->master(compile)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [compile-internal->runtime]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [compile-internal->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [compile-internal->compile(*)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [compile-internal->master]
 [debug] resolving dependencies for configuration 'runtime-internal'
 [debug] == resolving dependencies for default#entityfinder$sources_2.12;1.0 [runtime-internal]
 [debug] == resolving dependencies for default#entityfinder$sources_2.12;1.0 [runtime]
@@ -2355,6 +2551,26 @@
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.apache.lucene#lucene-queries;4.10.3 [compile->compile]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.apache.lucene#lucene-queries;4.10.3 [compile->compile(*)]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.apache.lucene#lucene-queries;4.10.3 [compile->master]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [compile->compile]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]}
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [compile->runtime(*)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [compile->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [compile->master(compile)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [compile->runtime]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [compile->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [compile->compile(*)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [compile->master]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xalan#xalan;2.7.0 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
@@ -2719,6 +2935,26 @@
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->compile]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->master]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->master]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [compile->compile]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]}
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [compile->runtime(*)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [compile->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [compile->master(compile)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [compile->runtime]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [compile->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [compile->compile(*)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [compile->master]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.googlecode.efficient-java-matrix-library#ejml;0.23 [runtime->compile]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.googlecode.efficient-java-matrix-library#ejml;0.23 [runtime->runtime(*)]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.googlecode.efficient-java-matrix-library#ejml;0.23 [runtime->compile]
@@ -2751,6 +2987,14 @@
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.apache.lucene#lucene-queries;4.10.3 [runtime->compile]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.apache.lucene#lucene-queries;4.10.3 [runtime->compile(*)]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.apache.lucene#lucene-queries;4.10.3 [runtime->master]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [runtime->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [runtime->runtime(*)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [runtime->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [runtime->master(compile)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [runtime->runtime]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [runtime->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [runtime->compile(*)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [runtime->master]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xalan#xalan;2.7.0 [runtime->compile]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xalan#xalan;2.7.0 [runtime->runtime(*)]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xalan#xalan;2.7.0 [runtime->compile]
@@ -2911,6 +3155,14 @@
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.scala-lang#scala-library;2.12.1 [runtime->compile]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.scala-lang#scala-library;2.12.1 [runtime->master]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.scala-lang#scala-library;2.12.1 [runtime->master]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [runtime->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [runtime->runtime(*)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [runtime->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [runtime->master(compile)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [runtime->runtime]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [runtime->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [runtime->compile(*)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [runtime->master]
 [debug] == resolving dependencies for default#entityfinder$sources_2.12;1.0 [optional]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.googlecode.efficient-java-matrix-library#ejml;0.23 [runtime-internal->compile]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.googlecode.efficient-java-matrix-library#ejml;0.23 [runtime-internal->runtime(*)]
@@ -2944,6 +3196,14 @@
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.apache.lucene#lucene-queries;4.10.3 [runtime-internal->compile]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.apache.lucene#lucene-queries;4.10.3 [runtime-internal->compile(*)]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.apache.lucene#lucene-queries;4.10.3 [runtime-internal->master]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [runtime-internal->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [runtime-internal->runtime(*)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [runtime-internal->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [runtime-internal->master(compile)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [runtime-internal->runtime]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [runtime-internal->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [runtime-internal->compile(*)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [runtime-internal->master]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xalan#xalan;2.7.0 [runtime-internal->compile]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xalan#xalan;2.7.0 [runtime-internal->runtime(*)]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xalan#xalan;2.7.0 [runtime-internal->compile]
@@ -3104,6 +3364,14 @@
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.scala-lang#scala-library;2.12.1 [runtime-internal->compile]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.scala-lang#scala-library;2.12.1 [runtime-internal->master]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.scala-lang#scala-library;2.12.1 [runtime-internal->master]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [runtime-internal->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [runtime-internal->runtime(*)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [runtime-internal->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [runtime-internal->master(compile)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [runtime-internal->runtime]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [runtime-internal->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [runtime-internal->compile(*)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [runtime-internal->master]
 [debug] resolving dependencies for configuration 'test-internal'
 [debug] == resolving dependencies for default#entityfinder$sources_2.12;1.0 [test-internal]
 [debug] == resolving dependencies for default#entityfinder$sources_2.12;1.0 [test]
@@ -3213,6 +3481,32 @@
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.apache.lucene#lucene-queries;4.10.3 [compile->compile]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.apache.lucene#lucene-queries;4.10.3 [compile->compile(*)]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.apache.lucene#lucene-queries;4.10.3 [compile->master]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [compile->compile]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]}
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [compile->runtime(*)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [compile->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [compile->master(compile)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [compile->runtime]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [compile->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [compile->compile(*)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [compile->master]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xalan#xalan;2.7.0 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
@@ -3679,6 +3973,32 @@
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->compile]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->master]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->master]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [compile->compile]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.12.1 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, compile, runtime, optional, optional(default), master]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]}
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [compile->runtime(*)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [compile->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [compile->master(compile)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [compile->runtime]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [compile->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [compile->compile(*)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [compile->master]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.googlecode.efficient-java-matrix-library#ejml;0.23 [runtime->compile]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.googlecode.efficient-java-matrix-library#ejml;0.23 [runtime->runtime(*)]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.googlecode.efficient-java-matrix-library#ejml;0.23 [runtime->compile]
@@ -3711,6 +4031,14 @@
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.apache.lucene#lucene-queries;4.10.3 [runtime->compile]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.apache.lucene#lucene-queries;4.10.3 [runtime->compile(*)]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.apache.lucene#lucene-queries;4.10.3 [runtime->master]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [runtime->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [runtime->runtime(*)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [runtime->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [runtime->master(compile)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [runtime->runtime]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [runtime->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [runtime->compile(*)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [runtime->master]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xalan#xalan;2.7.0 [runtime->compile]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xalan#xalan;2.7.0 [runtime->runtime(*)]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xalan#xalan;2.7.0 [runtime->compile]
@@ -3871,6 +4199,14 @@
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.scala-lang#scala-library;2.12.1 [runtime->compile]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.scala-lang#scala-library;2.12.1 [runtime->master]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.scala-lang#scala-library;2.12.1 [runtime->master]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [runtime->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [runtime->runtime(*)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [runtime->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [runtime->master(compile)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [runtime->runtime]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [runtime->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [runtime->compile(*)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [runtime->master]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.googlecode.efficient-java-matrix-library#ejml;0.23 [test->compile]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.googlecode.efficient-java-matrix-library#ejml;0.23 [test->runtime(*)]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.googlecode.efficient-java-matrix-library#ejml;0.23 [test->compile]
@@ -3903,6 +4239,14 @@
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.apache.lucene#lucene-queries;4.10.3 [test->compile]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.apache.lucene#lucene-queries;4.10.3 [test->compile(*)]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.apache.lucene#lucene-queries;4.10.3 [test->master]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [test->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [test->runtime(*)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [test->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [test->master(compile)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [test->runtime]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [test->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [test->compile(*)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [test->master]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xalan#xalan;2.7.0 [test->compile]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xalan#xalan;2.7.0 [test->runtime(*)]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xalan#xalan;2.7.0 [test->compile]
@@ -4063,6 +4407,14 @@
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.scala-lang#scala-library;2.12.1 [test->compile]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.scala-lang#scala-library;2.12.1 [test->master]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.scala-lang#scala-library;2.12.1 [test->master]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [test->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [test->runtime(*)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [test->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [test->master(compile)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [test->runtime]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [test->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [test->compile(*)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [test->master]
 [debug] == resolving dependencies for default#entityfinder$sources_2.12;1.0 [optional]
 [debug] == resolving dependencies for default#entityfinder$sources_2.12;1.0 [provided]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.googlecode.efficient-java-matrix-library#ejml;0.23 [test-internal->compile]
@@ -4097,6 +4449,14 @@
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.apache.lucene#lucene-queries;4.10.3 [test-internal->compile]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.apache.lucene#lucene-queries;4.10.3 [test-internal->compile(*)]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.apache.lucene#lucene-queries;4.10.3 [test-internal->master]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [test-internal->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [test-internal->runtime(*)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [test-internal->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [test-internal->master(compile)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [test-internal->runtime]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [test-internal->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [test-internal->compile(*)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xml-apis#xml-apis;1.3.03 [test-internal->master]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xalan#xalan;2.7.0 [test-internal->compile]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xalan#xalan;2.7.0 [test-internal->runtime(*)]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->xalan#xalan;2.7.0 [test-internal->compile]
@@ -4257,6 +4617,14 @@
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.scala-lang#scala-library;2.12.1 [test-internal->compile]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.scala-lang#scala-library;2.12.1 [test-internal->master]
 [debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->org.scala-lang#scala-library;2.12.1 [test-internal->master]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [test-internal->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [test-internal->runtime(*)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [test-internal->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [test-internal->master(compile)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [test-internal->runtime]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [test-internal->compile]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [test-internal->compile(*)]
+[debug] == resolving dependencies default#entityfinder$sources_2.12;1.0->com.apple#AppleJavaExtensions;1.4 [test-internal->master]
 [debug] resolving dependencies for configuration 'plugin'
 [debug] == resolving dependencies for default#entityfinder$sources_2.12;1.0 [plugin]
 [debug] resolving dependencies for configuration 'sources'
@@ -4346,32 +4714,175 @@
 [debug] ignoring unhandled DependencyDescriptorMediator: class sbt.IvyScala$OverrideScalaMediator
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 	[NOT REQUIRED] com.googlecode.efficient-java-matrix-library#ejml;0.23!ejml.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.lucene#lucene-analyzers-common;4.10.3!lucene-analyzers-common.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.lucene#lucene-core;4.10.3!lucene-core.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.lucene#lucene-queries;4.10.3!lucene-queries.jar(src)
-[debug] 	[NOT REQUIRED] xalan#xalan;2.7.0!xalan.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.opennlp#opennlp-tools;1.7.2!opennlp-tools.jar(src)
-[debug] 	[NOT REQUIRED] org.glassfish#javax.json;1.0.4!javax.json.jar(src)
-[debug] 	[NOT REQUIRED] xerces#xercesImpl;2.8.0!xercesImpl.jar(src)
-[debug] 	[NOT REQUIRED] joda-time#joda-time;2.9!joda-time.jar(src)
-[debug] 	[NOT REQUIRED] org.slf4j#slf4j-simple;1.6.1!slf4j-simple.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.lucene#lucene-queryparser;4.10.3!lucene-queryparser.jar(src)
-[debug] 	[NOT REQUIRED] de.jollyday#jollyday;0.4.9!jollyday.jar(src)
-[debug] 	[NOT REQUIRED] com.io7m.xom#xom;1.2.10!xom.jar(src)
-[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.12!slf4j-api.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.lucene#lucene-sandbox;4.10.3!lucene-sandbox.jar(src)
-[debug] 	[NOT REQUIRED] javax.servlet#javax.servlet-api;3.0.1!javax.servlet-api.jar(src)
-[debug] 	[NOT REQUIRED] javax.xml.bind#jaxb-api;2.2.7!jaxb-api.jar(src)
-[debug] 	[NOT REQUIRED] com.google.protobuf#protobuf-java;2.6.1!protobuf-java.jar(src)
-[debug] 	[NOT REQUIRED] edu.stanford.nlp#stanford-corenlp;3.7.0!stanford-corenlp.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.commons#commons-lang3;3.3.1!commons-lang3.jar(src)
+[debug] 		tried /home/pooja/.ivy2/local/com.googlecode.efficient-java-matrix-library/ejml/0.23/srcs/ejml-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/googlecode/efficient-java-matrix-library/ejml/0.23/ejml-0.23-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/googlecode/efficient-java-matrix-library/ejml/0.23/ejml-0.23-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/googlecode/efficient-java-matrix-library/ejml/0.23/ejml-0.23-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/googlecode/efficient-java-matrix-library/ejml/0.23/ejml-0.23-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/googlecode/efficient-java-matrix-library/ejml/0.23/ejml-0.23-sources.jar
+[info] 	[SUCCESSFUL ] com.googlecode.efficient-java-matrix-library#ejml;0.23!ejml.jar(src) (3944ms)
+[debug] 		tried /home/pooja/.ivy2/local/org.apache.lucene/lucene-analyzers-common/4.10.3/srcs/lucene-analyzers-common-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/lucene/lucene-analyzers-common/4.10.3/lucene-analyzers-common-4.10.3-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/apache/lucene/lucene-analyzers-common/4.10.3/lucene-analyzers-common-4.10.3-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/lucene/lucene-analyzers-common/4.10.3/lucene-analyzers-common-4.10.3-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/lucene/lucene-analyzers-common/4.10.3/lucene-analyzers-common-4.10.3-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/lucene/lucene-analyzers-common/4.10.3/lucene-analyzers-common-4.10.3-sources.jar
+[info] 	[SUCCESSFUL ] org.apache.lucene#lucene-analyzers-common;4.10.3!lucene-analyzers-common.jar(src) (6241ms)
+[debug] 		tried /home/pooja/.ivy2/local/org.apache.lucene/lucene-core/4.10.3/srcs/lucene-core-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/lucene/lucene-core/4.10.3/lucene-core-4.10.3-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/apache/lucene/lucene-core/4.10.3/lucene-core-4.10.3-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/lucene/lucene-core/4.10.3/lucene-core-4.10.3-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/lucene/lucene-core/4.10.3/lucene-core-4.10.3-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/lucene/lucene-core/4.10.3/lucene-core-4.10.3-sources.jar
+[info] 	[SUCCESSFUL ] org.apache.lucene#lucene-core;4.10.3!lucene-core.jar(src) (3530ms)
+[debug] 		tried /home/pooja/.ivy2/local/org.apache.lucene/lucene-queries/4.10.3/srcs/lucene-queries-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/lucene/lucene-queries/4.10.3/lucene-queries-4.10.3-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/apache/lucene/lucene-queries/4.10.3/lucene-queries-4.10.3-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/lucene/lucene-queries/4.10.3/lucene-queries-4.10.3-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/lucene/lucene-queries/4.10.3/lucene-queries-4.10.3-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/lucene/lucene-queries/4.10.3/lucene-queries-4.10.3-sources.jar
+[info] 	[SUCCESSFUL ] org.apache.lucene#lucene-queries;4.10.3!lucene-queries.jar(src) (1493ms)
+[debug] 		tried /home/pooja/.ivy2/local/xml-apis/xml-apis/1.3.03/srcs/xml-apis-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/xml-apis/xml-apis/1.3.03/xml-apis-1.3.03-sources.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/xml-apis/xml-apis/1.3.03/xml-apis-1.3.03-sources.jar
+[warn] 	[FAILED     ] xml-apis#xml-apis;1.3.03!xml-apis.jar(src):  (0ms)
+[warn] ==== local: tried
+[warn]   /home/pooja/.ivy2/local/xml-apis/xml-apis/1.3.03/srcs/xml-apis-sources.jar
+[warn] ==== public: tried
+[warn]   https://repo1.maven.org/maven2/xml-apis/xml-apis/1.3.03/xml-apis-1.3.03-sources.jar
+[debug] 		tried /home/pooja/.ivy2/local/xalan/xalan/2.7.0/srcs/xalan-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/xalan/xalan/2.7.0/xalan-2.7.0-sources.jar
+[info] downloading https://repo1.maven.org/maven2/xalan/xalan/2.7.0/xalan-2.7.0-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/xalan/xalan/2.7.0/xalan-2.7.0-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/xalan/xalan/2.7.0/xalan-2.7.0-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/xalan/xalan/2.7.0/xalan-2.7.0-sources.jar
+[info] 	[SUCCESSFUL ] xalan#xalan;2.7.0!xalan.jar(src) (3154ms)
+[debug] 		tried /home/pooja/.ivy2/local/org.apache.opennlp/opennlp-tools/1.7.2/srcs/opennlp-tools-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/opennlp/opennlp-tools/1.7.2/opennlp-tools-1.7.2-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/apache/opennlp/opennlp-tools/1.7.2/opennlp-tools-1.7.2-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/opennlp/opennlp-tools/1.7.2/opennlp-tools-1.7.2-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/opennlp/opennlp-tools/1.7.2/opennlp-tools-1.7.2-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/opennlp/opennlp-tools/1.7.2/opennlp-tools-1.7.2-sources.jar
+[info] 	[SUCCESSFUL ] org.apache.opennlp#opennlp-tools;1.7.2!opennlp-tools.jar(src) (1869ms)
+[debug] 		tried /home/pooja/.ivy2/local/org.glassfish/javax.json/1.0.4/srcs/javax.json-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/glassfish/javax.json/1.0.4/javax.json-1.0.4-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/glassfish/javax.json/1.0.4/javax.json-1.0.4-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/glassfish/javax.json/1.0.4/javax.json-1.0.4-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/glassfish/javax.json/1.0.4/javax.json-1.0.4-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/glassfish/javax.json/1.0.4/javax.json-1.0.4-sources.jar
+[info] 	[SUCCESSFUL ] org.glassfish#javax.json;1.0.4!javax.json.jar(src) (1409ms)
+[debug] 		tried /home/pooja/.ivy2/local/xerces/xercesImpl/2.8.0/srcs/xercesImpl-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/xerces/xercesImpl/2.8.0/xercesImpl-2.8.0-sources.jar
+[info] downloading https://repo1.maven.org/maven2/xerces/xercesImpl/2.8.0/xercesImpl-2.8.0-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/xerces/xercesImpl/2.8.0/xercesImpl-2.8.0-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/xerces/xercesImpl/2.8.0/xercesImpl-2.8.0-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/xerces/xercesImpl/2.8.0/xercesImpl-2.8.0-sources.jar
+[info] 	[SUCCESSFUL ] xerces#xercesImpl;2.8.0!xercesImpl.jar(src) (2117ms)
+[debug] 		tried /home/pooja/.ivy2/local/joda-time/joda-time/2.9/srcs/joda-time-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/joda-time/joda-time/2.9/joda-time-2.9-sources.jar
+[info] downloading https://repo1.maven.org/maven2/joda-time/joda-time/2.9/joda-time-2.9-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/joda-time/joda-time/2.9/joda-time-2.9-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/joda-time/joda-time/2.9/joda-time-2.9-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/joda-time/joda-time/2.9/joda-time-2.9-sources.jar
+[info] 	[SUCCESSFUL ] joda-time#joda-time;2.9!joda-time.jar(src) (1665ms)
+[debug] 		tried /home/pooja/.ivy2/local/org.slf4j/slf4j-simple/1.6.1/srcs/slf4j-simple-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.6.1/slf4j-simple-1.6.1-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.6.1/slf4j-simple-1.6.1-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.6.1/slf4j-simple-1.6.1-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.6.1/slf4j-simple-1.6.1-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.6.1/slf4j-simple-1.6.1-sources.jar
+[info] 	[SUCCESSFUL ] org.slf4j#slf4j-simple;1.6.1!slf4j-simple.jar(src) (1376ms)
+[debug] 		tried /home/pooja/.ivy2/local/org.apache.lucene/lucene-queryparser/4.10.3/srcs/lucene-queryparser-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/lucene/lucene-queryparser/4.10.3/lucene-queryparser-4.10.3-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/apache/lucene/lucene-queryparser/4.10.3/lucene-queryparser-4.10.3-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/lucene/lucene-queryparser/4.10.3/lucene-queryparser-4.10.3-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/lucene/lucene-queryparser/4.10.3/lucene-queryparser-4.10.3-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/lucene/lucene-queryparser/4.10.3/lucene-queryparser-4.10.3-sources.jar
+[info] 	[SUCCESSFUL ] org.apache.lucene#lucene-queryparser;4.10.3!lucene-queryparser.jar(src) (1578ms)
+[debug] 		tried /home/pooja/.ivy2/local/de.jollyday/jollyday/0.4.9/srcs/jollyday-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/de/jollyday/jollyday/0.4.9/jollyday-0.4.9-sources.jar
+[info] downloading https://repo1.maven.org/maven2/de/jollyday/jollyday/0.4.9/jollyday-0.4.9-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/de/jollyday/jollyday/0.4.9/jollyday-0.4.9-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/de/jollyday/jollyday/0.4.9/jollyday-0.4.9-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/de/jollyday/jollyday/0.4.9/jollyday-0.4.9-sources.jar
+[info] 	[SUCCESSFUL ] de.jollyday#jollyday;0.4.9!jollyday.jar(src) (1440ms)
+[debug] 		tried /home/pooja/.ivy2/local/com.io7m.xom/xom/1.2.10/srcs/xom-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/io7m/xom/xom/1.2.10/xom-1.2.10-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/io7m/xom/xom/1.2.10/xom-1.2.10-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/io7m/xom/xom/1.2.10/xom-1.2.10-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/io7m/xom/xom/1.2.10/xom-1.2.10-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/io7m/xom/xom/1.2.10/xom-1.2.10-sources.jar
+[info] 	[SUCCESSFUL ] com.io7m.xom#xom;1.2.10!xom.jar(src) (1562ms)
+[debug] 		tried /home/pooja/.ivy2/local/org.slf4j/slf4j-api/1.7.12/srcs/slf4j-api-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12-sources.jar
+[info] 	[SUCCESSFUL ] org.slf4j#slf4j-api;1.7.12!slf4j-api.jar(src) (1387ms)
+[debug] 		tried /home/pooja/.ivy2/local/org.apache.lucene/lucene-sandbox/4.10.3/srcs/lucene-sandbox-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/lucene/lucene-sandbox/4.10.3/lucene-sandbox-4.10.3-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/apache/lucene/lucene-sandbox/4.10.3/lucene-sandbox-4.10.3-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/lucene/lucene-sandbox/4.10.3/lucene-sandbox-4.10.3-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/lucene/lucene-sandbox/4.10.3/lucene-sandbox-4.10.3-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/lucene/lucene-sandbox/4.10.3/lucene-sandbox-4.10.3-sources.jar
+[info] 	[SUCCESSFUL ] org.apache.lucene#lucene-sandbox;4.10.3!lucene-sandbox.jar(src) (1403ms)
+[debug] 		tried /home/pooja/.ivy2/local/javax.servlet/javax.servlet-api/3.0.1/srcs/javax.servlet-api-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1-sources.jar
+[info] downloading https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1-sources.jar
+[info] 	[SUCCESSFUL ] javax.servlet#javax.servlet-api;3.0.1!javax.servlet-api.jar(src) (1443ms)
+[debug] 		tried /home/pooja/.ivy2/local/javax.xml.bind/jaxb-api/2.2.7/srcs/jaxb-api-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.2.7/jaxb-api-2.2.7-sources.jar
+[info] downloading https://repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.2.7/jaxb-api-2.2.7-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.2.7/jaxb-api-2.2.7-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.2.7/jaxb-api-2.2.7-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.2.7/jaxb-api-2.2.7-sources.jar
+[info] 	[SUCCESSFUL ] javax.xml.bind#jaxb-api;2.2.7!jaxb-api.jar(src) (1446ms)
+[debug] 		tried /home/pooja/.ivy2/local/com.google.protobuf/protobuf-java/2.6.1/srcs/protobuf-java-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.6.1/protobuf-java-2.6.1-sources.jar
+[info] downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.6.1/protobuf-java-2.6.1-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.6.1/protobuf-java-2.6.1-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.6.1/protobuf-java-2.6.1-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.6.1/protobuf-java-2.6.1-sources.jar
+[info] 	[SUCCESSFUL ] com.google.protobuf#protobuf-java;2.6.1!protobuf-java.jar(src) (1475ms)
+[debug] 		tried /home/pooja/.ivy2/local/edu.stanford.nlp/stanford-corenlp/3.7.0/srcs/stanford-corenlp-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/edu/stanford/nlp/stanford-corenlp/3.7.0/stanford-corenlp-3.7.0-sources.jar
+[info] downloading https://repo1.maven.org/maven2/edu/stanford/nlp/stanford-corenlp/3.7.0/stanford-corenlp-3.7.0-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/edu/stanford/nlp/stanford-corenlp/3.7.0/stanford-corenlp-3.7.0-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/edu/stanford/nlp/stanford-corenlp/3.7.0/stanford-corenlp-3.7.0-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/edu/stanford/nlp/stanford-corenlp/3.7.0/stanford-corenlp-3.7.0-sources.jar
+[info] 	[SUCCESSFUL ] edu.stanford.nlp#stanford-corenlp;3.7.0!stanford-corenlp.jar(src) (2824ms)
+[debug] 		tried /home/pooja/.ivy2/local/org.apache.commons/commons-lang3/3.3.1/srcs/commons-lang3-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.3.1/commons-lang3-3.3.1-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.3.1/commons-lang3-3.3.1-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.3.1/commons-lang3-3.3.1-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.3.1/commons-lang3-3.3.1-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.3.1/commons-lang3-3.3.1-sources.jar
+[info] 	[SUCCESSFUL ] org.apache.commons#commons-lang3;3.3.1!commons-lang3.jar(src) (1465ms)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.1!scala-library.jar(src)
+[debug] 		tried /home/pooja/.ivy2/local/com.apple/AppleJavaExtensions/1.4/srcs/AppleJavaExtensions-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/apple/AppleJavaExtensions/1.4/AppleJavaExtensions-1.4-sources.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/apple/AppleJavaExtensions/1.4/AppleJavaExtensions-1.4-sources.jar
+[warn] 	[FAILED     ] com.apple#AppleJavaExtensions;1.4!AppleJavaExtensions.jar(src):  (0ms)
+[warn] ==== local: tried
+[warn]   /home/pooja/.ivy2/local/com.apple/AppleJavaExtensions/1.4/srcs/AppleJavaExtensions-sources.jar
+[warn] ==== public: tried
+[warn]   https://repo1.maven.org/maven2/com/apple/AppleJavaExtensions/1.4/AppleJavaExtensions-1.4-sources.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.1!scala-reflect.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.1!scala-compiler.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.14.1!jline.jar(src)
-[debug] :: resolution report :: resolve 1808ms :: artifacts dl 25ms
+[debug] :: resolution report :: resolve 367ms :: artifacts dl 43407ms
+[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+[warn] 	::              FAILED DOWNLOADS            ::
+[warn] 	:: ^ see resolution messages for details  ^ ::
+[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+[warn] 	:: xml-apis#xml-apis;1.3.03!xml-apis.jar(src)
+[warn] 	:: com.apple#AppleJavaExtensions;1.4!AppleJavaExtensions.jar(src)
+[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
 [debug] 	report for default#entityfinder$sources_2.12;1.0 compile produced in /home/pooja/Downloads/EntityFinder/target/resolution-cache/reports/default-entityfinder$sources_2.12-compile.xml
 [debug] 	report for default#entityfinder$sources_2.12;1.0 runtime produced in /home/pooja/Downloads/EntityFinder/target/resolution-cache/reports/default-entityfinder$sources_2.12-runtime.xml
 [debug] 	report for default#entityfinder$sources_2.12;1.0 test produced in /home/pooja/Downloads/EntityFinder/target/resolution-cache/reports/default-entityfinder$sources_2.12-test.xml
@@ -4385,4 +4896,4 @@
 [debug] 	report for default#entityfinder$sources_2.12;1.0 docs produced in /home/pooja/Downloads/EntityFinder/target/resolution-cache/reports/default-entityfinder$sources_2.12-docs.xml
 [debug] 	report for default#entityfinder$sources_2.12;1.0 pom produced in /home/pooja/Downloads/EntityFinder/target/resolution-cache/reports/default-entityfinder$sources_2.12-pom.xml
 [debug] 	report for default#entityfinder$sources_2.12;1.0 scala-tool produced in /home/pooja/Downloads/EntityFinder/target/resolution-cache/reports/default-entityfinder$sources_2.12-scala-tool.xml
-[debug] 	resolve done (1808ms resolve - 25ms download)
+[debug] 	resolve done (367ms resolve - 43407ms download)

@@ -21,8 +21,41 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [info] Resolving org.apache.opennlp#opennlp-tools;1.7.2 ...
 [debug] sbt-chain: Checking cache for: dependency: org.apache.opennlp#opennlp-tools;1.7.2 {compile=[default(compile)]}
-[debug] sbt-chain: module revision found in cache: org.apache.opennlp#opennlp-tools;1.7.2
-[debug] 	found org.apache.opennlp#opennlp-tools;1.7.2 in sbt-chain
+[info] Resolving org.apache.opennlp#opennlp-tools;1.7.2 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.apache.opennlp#opennlp-tools;1.7.2 {compile=[default(compile)]}
+[debug] 		tried /home/pooja/.ivy2/local/org.apache.opennlp/opennlp-tools/1.7.2/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.apache.opennlp#opennlp-tools;1.7.2
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/opennlp/opennlp-tools/1.7.2/opennlp-tools-1.7.2.pom
+[debug] 	public: found md file for org.apache.opennlp#opennlp-tools;1.7.2
+[debug] 		=> https://repo1.maven.org/maven2/org/apache/opennlp/opennlp-tools/1.7.2/opennlp-tools-1.7.2.pom (1.7.2)
+[debug] downloading https://repo1.maven.org/maven2/org/apache/opennlp/opennlp-tools/1.7.2/opennlp-tools-1.7.2.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/opennlp/opennlp-tools/1.7.2/opennlp-tools-1.7.2.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/opennlp/opennlp-tools/1.7.2/opennlp-tools-1.7.2.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/opennlp/opennlp-tools/1.7.2/opennlp-tools-1.7.2.pom
+[debug] 	[SUCCESSFUL ] org.apache.opennlp#opennlp-tools;1.7.2!opennlp-tools.pom(pom.original) (1059ms)
+[info] Resolving org.apache.opennlp#opennlp;1.7.2 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.opennlp#opennlp;1.7.2 {}
+[info] Resolving org.apache.opennlp#opennlp;1.7.2 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.apache.opennlp#opennlp;1.7.2 {}
+[debug] 		tried /home/pooja/.ivy2/local/org.apache.opennlp/opennlp/1.7.2/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.apache.opennlp#opennlp;1.7.2
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/opennlp/opennlp/1.7.2/opennlp-1.7.2.pom
+[debug] 	public: found md file for org.apache.opennlp#opennlp;1.7.2
+[debug] 		=> https://repo1.maven.org/maven2/org/apache/opennlp/opennlp/1.7.2/opennlp-1.7.2.pom (1.7.2)
+[debug] downloading https://repo1.maven.org/maven2/org/apache/opennlp/opennlp/1.7.2/opennlp-1.7.2.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/opennlp/opennlp/1.7.2/opennlp-1.7.2.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/opennlp/opennlp/1.7.2/opennlp-1.7.2.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/opennlp/opennlp/1.7.2/opennlp-1.7.2.pom
+[debug] 	[SUCCESSFUL ] org.apache.opennlp#opennlp;1.7.2!opennlp.pom(pom.original) (1119ms)
+[info] Resolving org.apache#apache;18 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache#apache;18 {}
+[debug] sbt-chain: module revision found in cache: org.apache#apache;18
+[debug] 		tried /home/pooja/.ivy2/local/org.apache.opennlp/opennlp/1.7.2/jars/opennlp.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/opennlp/opennlp/1.7.2/opennlp-1.7.2.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/opennlp/opennlp/1.7.2/opennlp-1.7.2.jar
+[debug] 		tried /home/pooja/.ivy2/local/org.apache.opennlp/opennlp-tools/1.7.2/bundles/opennlp-tools.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/opennlp/opennlp-tools/1.7.2/opennlp-tools-1.7.2.jar
+[debug] 	found org.apache.opennlp#opennlp-tools;1.7.2 in public
 [debug] == resolving dependencies default#entityfinder_2.12;1.0->org.apache.opennlp#opennlp-tools;1.7.2 [compile->runtime]
 [debug] == resolving dependencies default#entityfinder_2.12;1.0->org.apache.opennlp#opennlp-tools;1.7.2 [compile->compile]
 [debug] == resolving dependencies default#entityfinder_2.12;1.0->org.apache.opennlp#opennlp-tools;1.7.2 [compile->master]
@@ -31,8 +64,21 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [info] Resolving edu.stanford.nlp#stanford-corenlp;3.7.0 ...
 [debug] sbt-chain: Checking cache for: dependency: edu.stanford.nlp#stanford-corenlp;3.7.0 {compile=[default(compile)]}
-[debug] sbt-chain: module revision found in cache: edu.stanford.nlp#stanford-corenlp;3.7.0
-[debug] 	found edu.stanford.nlp#stanford-corenlp;3.7.0 in sbt-chain
+[info] Resolving edu.stanford.nlp#stanford-corenlp;3.7.0 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: edu.stanford.nlp#stanford-corenlp;3.7.0 {compile=[default(compile)]}
+[debug] 		tried /home/pooja/.ivy2/local/edu.stanford.nlp/stanford-corenlp/3.7.0/ivys/ivy.xml
+[debug] 	local: no ivy file found for edu.stanford.nlp#stanford-corenlp;3.7.0
+[debug] 		tried https://repo1.maven.org/maven2/edu/stanford/nlp/stanford-corenlp/3.7.0/stanford-corenlp-3.7.0.pom
+[debug] 	public: found md file for edu.stanford.nlp#stanford-corenlp;3.7.0
+[debug] 		=> https://repo1.maven.org/maven2/edu/stanford/nlp/stanford-corenlp/3.7.0/stanford-corenlp-3.7.0.pom (3.7.0)
+[debug] downloading https://repo1.maven.org/maven2/edu/stanford/nlp/stanford-corenlp/3.7.0/stanford-corenlp-3.7.0.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/edu/stanford/nlp/stanford-corenlp/3.7.0/stanford-corenlp-3.7.0.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/edu/stanford/nlp/stanford-corenlp/3.7.0/stanford-corenlp-3.7.0.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/edu/stanford/nlp/stanford-corenlp/3.7.0/stanford-corenlp-3.7.0.pom
+[debug] 	[SUCCESSFUL ] edu.stanford.nlp#stanford-corenlp;3.7.0!stanford-corenlp.pom(pom.original) (1071ms)
+[debug] 		tried /home/pooja/.ivy2/local/edu.stanford.nlp/stanford-corenlp/3.7.0/jars/stanford-corenlp.jar
+[debug] 		tried https://repo1.maven.org/maven2/edu/stanford/nlp/stanford-corenlp/3.7.0/stanford-corenlp-3.7.0.jar
+[debug] 	found edu.stanford.nlp#stanford-corenlp;3.7.0 in public
 [debug] == resolving dependencies default#entityfinder_2.12;1.0->edu.stanford.nlp#stanford-corenlp;3.7.0 [compile->runtime]
 [debug] == resolving dependencies default#entityfinder_2.12;1.0->edu.stanford.nlp#stanford-corenlp;3.7.0 [compile->compile]
 [debug] == resolving dependencies edu.stanford.nlp#stanford-corenlp;3.7.0->com.apple#AppleJavaExtensions;1.4 [compile->master(compile)]
@@ -40,8 +86,21 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [info] Resolving com.apple#AppleJavaExtensions;1.4 ...
 [debug] sbt-chain: Checking cache for: dependency: com.apple#AppleJavaExtensions;1.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: com.apple#AppleJavaExtensions;1.4
-[debug] 	found com.apple#AppleJavaExtensions;1.4 in sbt-chain
+[info] Resolving com.apple#AppleJavaExtensions;1.4 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: com.apple#AppleJavaExtensions;1.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried /home/pooja/.ivy2/local/com.apple/AppleJavaExtensions/1.4/ivys/ivy.xml
+[debug] 	local: no ivy file found for com.apple#AppleJavaExtensions;1.4
+[debug] 		tried https://repo1.maven.org/maven2/com/apple/AppleJavaExtensions/1.4/AppleJavaExtensions-1.4.pom
+[debug] 	public: found md file for com.apple#AppleJavaExtensions;1.4
+[debug] 		=> https://repo1.maven.org/maven2/com/apple/AppleJavaExtensions/1.4/AppleJavaExtensions-1.4.pom (1.4)
+[debug] downloading https://repo1.maven.org/maven2/com/apple/AppleJavaExtensions/1.4/AppleJavaExtensions-1.4.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/apple/AppleJavaExtensions/1.4/AppleJavaExtensions-1.4.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/apple/AppleJavaExtensions/1.4/AppleJavaExtensions-1.4.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/apple/AppleJavaExtensions/1.4/AppleJavaExtensions-1.4.pom
+[debug] 	[SUCCESSFUL ] com.apple#AppleJavaExtensions;1.4!AppleJavaExtensions.pom(pom.original) (1072ms)
+[debug] 		tried /home/pooja/.ivy2/local/com.apple/AppleJavaExtensions/1.4/jars/AppleJavaExtensions.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/apple/AppleJavaExtensions/1.4/AppleJavaExtensions-1.4.jar
+[debug] 	found com.apple#AppleJavaExtensions;1.4 in public
 [debug] == resolving dependencies edu.stanford.nlp#stanford-corenlp;3.7.0->com.apple#AppleJavaExtensions;1.4 [compile->compile(*)]
 [debug] == resolving dependencies edu.stanford.nlp#stanford-corenlp;3.7.0->com.apple#AppleJavaExtensions;1.4 [compile->runtime(*)]
 [debug] == resolving dependencies edu.stanford.nlp#stanford-corenlp;3.7.0->com.apple#AppleJavaExtensions;1.4 [compile->compile]
@@ -50,8 +109,21 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [info] Resolving de.jollyday#jollyday;0.4.9 ...
 [debug] sbt-chain: Checking cache for: dependency: de.jollyday#jollyday;0.4.9 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: de.jollyday#jollyday;0.4.9
-[debug] 	found de.jollyday#jollyday;0.4.9 in sbt-chain
+[info] Resolving de.jollyday#jollyday;0.4.9 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: de.jollyday#jollyday;0.4.9 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried /home/pooja/.ivy2/local/de.jollyday/jollyday/0.4.9/ivys/ivy.xml
+[debug] 	local: no ivy file found for de.jollyday#jollyday;0.4.9
+[debug] 		tried https://repo1.maven.org/maven2/de/jollyday/jollyday/0.4.9/jollyday-0.4.9.pom
+[debug] 	public: found md file for de.jollyday#jollyday;0.4.9
+[debug] 		=> https://repo1.maven.org/maven2/de/jollyday/jollyday/0.4.9/jollyday-0.4.9.pom (0.4.9)
+[debug] downloading https://repo1.maven.org/maven2/de/jollyday/jollyday/0.4.9/jollyday-0.4.9.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/de/jollyday/jollyday/0.4.9/jollyday-0.4.9.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/de/jollyday/jollyday/0.4.9/jollyday-0.4.9.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/de/jollyday/jollyday/0.4.9/jollyday-0.4.9.pom
+[debug] 	[SUCCESSFUL ] de.jollyday#jollyday;0.4.9!jollyday.pom(pom.original) (1099ms)
+[debug] 		tried /home/pooja/.ivy2/local/de.jollyday/jollyday/0.4.9/jars/jollyday.jar
+[debug] 		tried https://repo1.maven.org/maven2/de/jollyday/jollyday/0.4.9/jollyday-0.4.9.jar
+[debug] 	found de.jollyday#jollyday;0.4.9 in public
 [debug] == resolving dependencies edu.stanford.nlp#stanford-corenlp;3.7.0->de.jollyday#jollyday;0.4.9 [compile->compile(*)]
 [debug] == resolving dependencies de.jollyday#jollyday;0.4.9->joda-time#joda-time;2.4 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
@@ -62,8 +134,38 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [info] Resolving javax.xml.bind#jaxb-api;2.2.7 ...
 [debug] sbt-chain: Checking cache for: dependency: javax.xml.bind#jaxb-api;2.2.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: javax.xml.bind#jaxb-api;2.2.7
-[debug] 	found javax.xml.bind#jaxb-api;2.2.7 in sbt-chain
+[info] Resolving javax.xml.bind#jaxb-api;2.2.7 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: javax.xml.bind#jaxb-api;2.2.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried /home/pooja/.ivy2/local/javax.xml.bind/jaxb-api/2.2.7/ivys/ivy.xml
+[debug] 	local: no ivy file found for javax.xml.bind#jaxb-api;2.2.7
+[debug] 		tried https://repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.2.7/jaxb-api-2.2.7.pom
+[debug] 	public: found md file for javax.xml.bind#jaxb-api;2.2.7
+[debug] 		=> https://repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.2.7/jaxb-api-2.2.7.pom (2.2.7)
+[debug] downloading https://repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.2.7/jaxb-api-2.2.7.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.2.7/jaxb-api-2.2.7.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.2.7/jaxb-api-2.2.7.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.2.7/jaxb-api-2.2.7.pom
+[debug] 	[SUCCESSFUL ] javax.xml.bind#jaxb-api;2.2.7!jaxb-api.pom(pom.original) (1088ms)
+[info] Resolving net.java#jvnet-parent;1 ...
+[debug] sbt-chain: Checking cache for: dependency: net.java#jvnet-parent;1 {}
+[info] Resolving net.java#jvnet-parent;1 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: net.java#jvnet-parent;1 {}
+[debug] 		tried /home/pooja/.ivy2/local/net.java/jvnet-parent/1/ivys/ivy.xml
+[debug] 	local: no ivy file found for net.java#jvnet-parent;1
+[debug] 		tried https://repo1.maven.org/maven2/net/java/jvnet-parent/1/jvnet-parent-1.pom
+[debug] 	public: found md file for net.java#jvnet-parent;1
+[debug] 		=> https://repo1.maven.org/maven2/net/java/jvnet-parent/1/jvnet-parent-1.pom (1)
+[debug] downloading https://repo1.maven.org/maven2/net/java/jvnet-parent/1/jvnet-parent-1.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/net/java/jvnet-parent/1/jvnet-parent-1.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/net/java/jvnet-parent/1/jvnet-parent-1.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/net/java/jvnet-parent/1/jvnet-parent-1.pom
+[debug] 	[SUCCESSFUL ] net.java#jvnet-parent;1!jvnet-parent.pom(pom.original) (1060ms)
+[debug] 		tried /home/pooja/.ivy2/local/net.java/jvnet-parent/1/jars/jvnet-parent.jar
+[debug] 		tried https://repo1.maven.org/maven2/net/java/jvnet-parent/1/jvnet-parent-1.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/net/java/jvnet-parent/1/jvnet-parent-1.jar
+[debug] 		tried /home/pooja/.ivy2/local/javax.xml.bind/jaxb-api/2.2.7/jars/jaxb-api.jar
+[debug] 		tried https://repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.2.7/jaxb-api-2.2.7.jar
+[debug] 	found javax.xml.bind#jaxb-api;2.2.7 in public
 [debug] == resolving dependencies de.jollyday#jollyday;0.4.9->javax.xml.bind#jaxb-api;2.2.7 [compile->compile(*)]
 [debug] == resolving dependencies edu.stanford.nlp#stanford-corenlp;3.7.0->de.jollyday#jollyday;0.4.9 [compile->runtime(*)]
 [debug] == resolving dependencies edu.stanford.nlp#stanford-corenlp;3.7.0->de.jollyday#jollyday;0.4.9 [compile->compile]
@@ -75,8 +177,41 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [info] Resolving org.apache.commons#commons-lang3;3.3.1 ...
 [debug] sbt-chain: Checking cache for: dependency: org.apache.commons#commons-lang3;3.3.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: org.apache.commons#commons-lang3;3.3.1
-[debug] 	found org.apache.commons#commons-lang3;3.3.1 in sbt-chain
+[info] Resolving org.apache.commons#commons-lang3;3.3.1 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.apache.commons#commons-lang3;3.3.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried /home/pooja/.ivy2/local/org.apache.commons/commons-lang3/3.3.1/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.apache.commons#commons-lang3;3.3.1
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.3.1/commons-lang3-3.3.1.pom
+[debug] 	public: found md file for org.apache.commons#commons-lang3;3.3.1
+[debug] 		=> https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.3.1/commons-lang3-3.3.1.pom (3.3.1)
+[debug] downloading https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.3.1/commons-lang3-3.3.1.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.3.1/commons-lang3-3.3.1.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.3.1/commons-lang3-3.3.1.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.3.1/commons-lang3-3.3.1.pom
+[debug] 	[SUCCESSFUL ] org.apache.commons#commons-lang3;3.3.1!commons-lang3.pom(pom.original) (1141ms)
+[info] Resolving org.apache.commons#commons-parent;33 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.commons#commons-parent;33 {}
+[info] Resolving org.apache.commons#commons-parent;33 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.apache.commons#commons-parent;33 {}
+[debug] 		tried /home/pooja/.ivy2/local/org.apache.commons/commons-parent/33/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.apache.commons#commons-parent;33
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/commons/commons-parent/33/commons-parent-33.pom
+[debug] 	public: found md file for org.apache.commons#commons-parent;33
+[debug] 		=> https://repo1.maven.org/maven2/org/apache/commons/commons-parent/33/commons-parent-33.pom (33)
+[debug] downloading https://repo1.maven.org/maven2/org/apache/commons/commons-parent/33/commons-parent-33.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-parent/33/commons-parent-33.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-parent/33/commons-parent-33.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/commons/commons-parent/33/commons-parent-33.pom
+[debug] 	[SUCCESSFUL ] org.apache.commons#commons-parent;33!commons-parent.pom(pom.original) (1361ms)
+[info] Resolving org.apache#apache;13 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache#apache;13 {}
+[debug] sbt-chain: module revision found in cache: org.apache#apache;13
+[debug] 		tried /home/pooja/.ivy2/local/org.apache.commons/commons-parent/33/jars/commons-parent.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/commons/commons-parent/33/commons-parent-33.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/commons/commons-parent/33/commons-parent-33.jar
+[debug] 		tried /home/pooja/.ivy2/local/org.apache.commons/commons-lang3/3.3.1/jars/commons-lang3.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.3.1/commons-lang3-3.3.1.jar
+[debug] 	found org.apache.commons#commons-lang3;3.3.1 in public
 [debug] == resolving dependencies edu.stanford.nlp#stanford-corenlp;3.7.0->org.apache.commons#commons-lang3;3.3.1 [compile->compile(*)]
 [debug] == resolving dependencies edu.stanford.nlp#stanford-corenlp;3.7.0->org.apache.commons#commons-lang3;3.3.1 [compile->runtime(*)]
 [debug] == resolving dependencies edu.stanford.nlp#stanford-corenlp;3.7.0->org.apache.commons#commons-lang3;3.3.1 [compile->compile]
@@ -85,16 +220,82 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [info] Resolving org.apache.lucene#lucene-queryparser;4.10.3 ...
 [debug] sbt-chain: Checking cache for: dependency: org.apache.lucene#lucene-queryparser;4.10.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: org.apache.lucene#lucene-queryparser;4.10.3
-[debug] 	found org.apache.lucene#lucene-queryparser;4.10.3 in sbt-chain
+[info] Resolving org.apache.lucene#lucene-queryparser;4.10.3 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.apache.lucene#lucene-queryparser;4.10.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried /home/pooja/.ivy2/local/org.apache.lucene/lucene-queryparser/4.10.3/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.apache.lucene#lucene-queryparser;4.10.3
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/lucene/lucene-queryparser/4.10.3/lucene-queryparser-4.10.3.pom
+[debug] 	public: found md file for org.apache.lucene#lucene-queryparser;4.10.3
+[debug] 		=> https://repo1.maven.org/maven2/org/apache/lucene/lucene-queryparser/4.10.3/lucene-queryparser-4.10.3.pom (4.10.3)
+[debug] downloading https://repo1.maven.org/maven2/org/apache/lucene/lucene-queryparser/4.10.3/lucene-queryparser-4.10.3.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/lucene/lucene-queryparser/4.10.3/lucene-queryparser-4.10.3.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/lucene/lucene-queryparser/4.10.3/lucene-queryparser-4.10.3.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/lucene/lucene-queryparser/4.10.3/lucene-queryparser-4.10.3.pom
+[debug] 	[SUCCESSFUL ] org.apache.lucene#lucene-queryparser;4.10.3!lucene-queryparser.pom(pom.original) (1068ms)
+[info] Resolving org.apache.lucene#lucene-parent;4.10.3 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.lucene#lucene-parent;4.10.3 {}
+[info] Resolving org.apache.lucene#lucene-parent;4.10.3 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.apache.lucene#lucene-parent;4.10.3 {}
+[debug] 		tried /home/pooja/.ivy2/local/org.apache.lucene/lucene-parent/4.10.3/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.apache.lucene#lucene-parent;4.10.3
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/lucene/lucene-parent/4.10.3/lucene-parent-4.10.3.pom
+[debug] 	public: found md file for org.apache.lucene#lucene-parent;4.10.3
+[debug] 		=> https://repo1.maven.org/maven2/org/apache/lucene/lucene-parent/4.10.3/lucene-parent-4.10.3.pom (4.10.3)
+[debug] downloading https://repo1.maven.org/maven2/org/apache/lucene/lucene-parent/4.10.3/lucene-parent-4.10.3.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/lucene/lucene-parent/4.10.3/lucene-parent-4.10.3.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/lucene/lucene-parent/4.10.3/lucene-parent-4.10.3.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/lucene/lucene-parent/4.10.3/lucene-parent-4.10.3.pom
+[debug] 	[SUCCESSFUL ] org.apache.lucene#lucene-parent;4.10.3!lucene-parent.pom(pom.original) (1062ms)
+[info] Resolving org.apache.lucene#lucene-solr-grandparent;4.10.3 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.lucene#lucene-solr-grandparent;4.10.3 {}
+[info] Resolving org.apache.lucene#lucene-solr-grandparent;4.10.3 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.apache.lucene#lucene-solr-grandparent;4.10.3 {}
+[debug] 		tried /home/pooja/.ivy2/local/org.apache.lucene/lucene-solr-grandparent/4.10.3/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.apache.lucene#lucene-solr-grandparent;4.10.3
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/lucene/lucene-solr-grandparent/4.10.3/lucene-solr-grandparent-4.10.3.pom
+[debug] 	public: found md file for org.apache.lucene#lucene-solr-grandparent;4.10.3
+[debug] 		=> https://repo1.maven.org/maven2/org/apache/lucene/lucene-solr-grandparent/4.10.3/lucene-solr-grandparent-4.10.3.pom (4.10.3)
+[debug] downloading https://repo1.maven.org/maven2/org/apache/lucene/lucene-solr-grandparent/4.10.3/lucene-solr-grandparent-4.10.3.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/lucene/lucene-solr-grandparent/4.10.3/lucene-solr-grandparent-4.10.3.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/lucene/lucene-solr-grandparent/4.10.3/lucene-solr-grandparent-4.10.3.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/lucene/lucene-solr-grandparent/4.10.3/lucene-solr-grandparent-4.10.3.pom
+[debug] 	[SUCCESSFUL ] org.apache.lucene#lucene-solr-grandparent;4.10.3!lucene-solr-grandparent.pom(pom.original) (2007ms)
+[info] Resolving org.apache#apache;13 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache#apache;13 {}
+[debug] sbt-chain: module revision found in cache: org.apache#apache;13
+[debug] 		tried /home/pooja/.ivy2/local/org.apache.lucene/lucene-solr-grandparent/4.10.3/jars/lucene-solr-grandparent.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/lucene/lucene-solr-grandparent/4.10.3/lucene-solr-grandparent-4.10.3.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/lucene/lucene-solr-grandparent/4.10.3/lucene-solr-grandparent-4.10.3.jar
+[debug] 		tried /home/pooja/.ivy2/local/org.apache.lucene/lucene-parent/4.10.3/jars/lucene-parent.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/lucene/lucene-parent/4.10.3/lucene-parent-4.10.3.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/lucene/lucene-parent/4.10.3/lucene-parent-4.10.3.jar
+[debug] 		tried /home/pooja/.ivy2/local/org.apache.lucene/lucene-queryparser/4.10.3/jars/lucene-queryparser.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/lucene/lucene-queryparser/4.10.3/lucene-queryparser-4.10.3.jar
+[debug] 	found org.apache.lucene#lucene-queryparser;4.10.3 in public
 [debug] == resolving dependencies edu.stanford.nlp#stanford-corenlp;3.7.0->org.apache.lucene#lucene-queryparser;4.10.3 [compile->compile(*)]
 [debug] == resolving dependencies org.apache.lucene#lucene-queryparser;4.10.3->org.apache.lucene#lucene-core;4.10.3 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [info] Resolving org.apache.lucene#lucene-core;4.10.3 ...
 [debug] sbt-chain: Checking cache for: dependency: org.apache.lucene#lucene-core;4.10.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: org.apache.lucene#lucene-core;4.10.3
-[debug] 	found org.apache.lucene#lucene-core;4.10.3 in sbt-chain
+[info] Resolving org.apache.lucene#lucene-core;4.10.3 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.apache.lucene#lucene-core;4.10.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried /home/pooja/.ivy2/local/org.apache.lucene/lucene-core/4.10.3/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.apache.lucene#lucene-core;4.10.3
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/lucene/lucene-core/4.10.3/lucene-core-4.10.3.pom
+[debug] 	public: found md file for org.apache.lucene#lucene-core;4.10.3
+[debug] 		=> https://repo1.maven.org/maven2/org/apache/lucene/lucene-core/4.10.3/lucene-core-4.10.3.pom (4.10.3)
+[debug] downloading https://repo1.maven.org/maven2/org/apache/lucene/lucene-core/4.10.3/lucene-core-4.10.3.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/lucene/lucene-core/4.10.3/lucene-core-4.10.3.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/lucene/lucene-core/4.10.3/lucene-core-4.10.3.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/lucene/lucene-core/4.10.3/lucene-core-4.10.3.pom
+[debug] 	[SUCCESSFUL ] org.apache.lucene#lucene-core;4.10.3!lucene-core.pom(pom.original) (1064ms)
+[info] Resolving org.apache.lucene#lucene-parent;4.10.3 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.lucene#lucene-parent;4.10.3 {}
+[debug] sbt-chain: module revision found in cache: org.apache.lucene#lucene-parent;4.10.3
+[debug] 		tried /home/pooja/.ivy2/local/org.apache.lucene/lucene-core/4.10.3/jars/lucene-core.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/lucene/lucene-core/4.10.3/lucene-core-4.10.3.jar
+[debug] 	found org.apache.lucene#lucene-core;4.10.3 in public
 [debug] == resolving dependencies org.apache.lucene#lucene-queryparser;4.10.3->org.apache.lucene#lucene-core;4.10.3 [compile->compile(*)]
 [debug] == resolving dependencies org.apache.lucene#lucene-queryparser;4.10.3->org.apache.lucene#lucene-core;4.10.3 [compile->runtime(*)]
 [debug] == resolving dependencies org.apache.lucene#lucene-queryparser;4.10.3->org.apache.lucene#lucene-core;4.10.3 [compile->compile]
@@ -103,8 +304,24 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [info] Resolving org.apache.lucene#lucene-queries;4.10.3 ...
 [debug] sbt-chain: Checking cache for: dependency: org.apache.lucene#lucene-queries;4.10.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: org.apache.lucene#lucene-queries;4.10.3
-[debug] 	found org.apache.lucene#lucene-queries;4.10.3 in sbt-chain
+[info] Resolving org.apache.lucene#lucene-queries;4.10.3 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.apache.lucene#lucene-queries;4.10.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried /home/pooja/.ivy2/local/org.apache.lucene/lucene-queries/4.10.3/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.apache.lucene#lucene-queries;4.10.3
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/lucene/lucene-queries/4.10.3/lucene-queries-4.10.3.pom
+[debug] 	public: found md file for org.apache.lucene#lucene-queries;4.10.3
+[debug] 		=> https://repo1.maven.org/maven2/org/apache/lucene/lucene-queries/4.10.3/lucene-queries-4.10.3.pom (4.10.3)
+[debug] downloading https://repo1.maven.org/maven2/org/apache/lucene/lucene-queries/4.10.3/lucene-queries-4.10.3.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/lucene/lucene-queries/4.10.3/lucene-queries-4.10.3.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/lucene/lucene-queries/4.10.3/lucene-queries-4.10.3.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/lucene/lucene-queries/4.10.3/lucene-queries-4.10.3.pom
+[debug] 	[SUCCESSFUL ] org.apache.lucene#lucene-queries;4.10.3!lucene-queries.pom(pom.original) (1059ms)
+[info] Resolving org.apache.lucene#lucene-parent;4.10.3 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.lucene#lucene-parent;4.10.3 {}
+[debug] sbt-chain: module revision found in cache: org.apache.lucene#lucene-parent;4.10.3
+[debug] 		tried /home/pooja/.ivy2/local/org.apache.lucene/lucene-queries/4.10.3/jars/lucene-queries.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/lucene/lucene-queries/4.10.3/lucene-queries-4.10.3.jar
+[debug] 	found org.apache.lucene#lucene-queries;4.10.3 in public
 [debug] == resolving dependencies org.apache.lucene#lucene-queryparser;4.10.3->org.apache.lucene#lucene-queries;4.10.3 [compile->compile(*)]
 [debug] == resolving dependencies org.apache.lucene#lucene-queries;4.10.3->org.apache.lucene#lucene-core;4.10.3 [compile->master(compile)]
 [debug] == resolving dependencies org.apache.lucene#lucene-queries;4.10.3->org.apache.lucene#lucene-core;4.10.3 [compile->compile(*)]
@@ -117,8 +334,24 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [info] Resolving org.apache.lucene#lucene-sandbox;4.10.3 ...
 [debug] sbt-chain: Checking cache for: dependency: org.apache.lucene#lucene-sandbox;4.10.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: org.apache.lucene#lucene-sandbox;4.10.3
-[debug] 	found org.apache.lucene#lucene-sandbox;4.10.3 in sbt-chain
+[info] Resolving org.apache.lucene#lucene-sandbox;4.10.3 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.apache.lucene#lucene-sandbox;4.10.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried /home/pooja/.ivy2/local/org.apache.lucene/lucene-sandbox/4.10.3/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.apache.lucene#lucene-sandbox;4.10.3
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/lucene/lucene-sandbox/4.10.3/lucene-sandbox-4.10.3.pom
+[debug] 	public: found md file for org.apache.lucene#lucene-sandbox;4.10.3
+[debug] 		=> https://repo1.maven.org/maven2/org/apache/lucene/lucene-sandbox/4.10.3/lucene-sandbox-4.10.3.pom (4.10.3)
+[debug] downloading https://repo1.maven.org/maven2/org/apache/lucene/lucene-sandbox/4.10.3/lucene-sandbox-4.10.3.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/lucene/lucene-sandbox/4.10.3/lucene-sandbox-4.10.3.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/lucene/lucene-sandbox/4.10.3/lucene-sandbox-4.10.3.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/lucene/lucene-sandbox/4.10.3/lucene-sandbox-4.10.3.pom
+[debug] 	[SUCCESSFUL ] org.apache.lucene#lucene-sandbox;4.10.3!lucene-sandbox.pom(pom.original) (1058ms)
+[info] Resolving org.apache.lucene#lucene-parent;4.10.3 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.lucene#lucene-parent;4.10.3 {}
+[debug] sbt-chain: module revision found in cache: org.apache.lucene#lucene-parent;4.10.3
+[debug] 		tried /home/pooja/.ivy2/local/org.apache.lucene/lucene-sandbox/4.10.3/jars/lucene-sandbox.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/lucene/lucene-sandbox/4.10.3/lucene-sandbox-4.10.3.jar
+[debug] 	found org.apache.lucene#lucene-sandbox;4.10.3 in public
 [debug] == resolving dependencies org.apache.lucene#lucene-queryparser;4.10.3->org.apache.lucene#lucene-sandbox;4.10.3 [compile->compile(*)]
 [debug] excluding dependency: org.apache.lucene#lucene-core;4.10.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
 [debug] excluding dependency: jakarta-regexp#jakarta-regexp;1.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
@@ -137,8 +370,24 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [info] Resolving org.apache.lucene#lucene-analyzers-common;4.10.3 ...
 [debug] sbt-chain: Checking cache for: dependency: org.apache.lucene#lucene-analyzers-common;4.10.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: org.apache.lucene#lucene-analyzers-common;4.10.3
-[debug] 	found org.apache.lucene#lucene-analyzers-common;4.10.3 in sbt-chain
+[info] Resolving org.apache.lucene#lucene-analyzers-common;4.10.3 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.apache.lucene#lucene-analyzers-common;4.10.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried /home/pooja/.ivy2/local/org.apache.lucene/lucene-analyzers-common/4.10.3/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.apache.lucene#lucene-analyzers-common;4.10.3
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/lucene/lucene-analyzers-common/4.10.3/lucene-analyzers-common-4.10.3.pom
+[debug] 	public: found md file for org.apache.lucene#lucene-analyzers-common;4.10.3
+[debug] 		=> https://repo1.maven.org/maven2/org/apache/lucene/lucene-analyzers-common/4.10.3/lucene-analyzers-common-4.10.3.pom (4.10.3)
+[debug] downloading https://repo1.maven.org/maven2/org/apache/lucene/lucene-analyzers-common/4.10.3/lucene-analyzers-common-4.10.3.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/lucene/lucene-analyzers-common/4.10.3/lucene-analyzers-common-4.10.3.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/lucene/lucene-analyzers-common/4.10.3/lucene-analyzers-common-4.10.3.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/lucene/lucene-analyzers-common/4.10.3/lucene-analyzers-common-4.10.3.pom
+[debug] 	[SUCCESSFUL ] org.apache.lucene#lucene-analyzers-common;4.10.3!lucene-analyzers-common.pom(pom.original) (1057ms)
+[info] Resolving org.apache.lucene#lucene-parent;4.10.3 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.lucene#lucene-parent;4.10.3 {}
+[debug] sbt-chain: module revision found in cache: org.apache.lucene#lucene-parent;4.10.3
+[debug] 		tried /home/pooja/.ivy2/local/org.apache.lucene/lucene-analyzers-common/4.10.3/jars/lucene-analyzers-common.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/lucene/lucene-analyzers-common/4.10.3/lucene-analyzers-common-4.10.3.jar
+[debug] 	found org.apache.lucene#lucene-analyzers-common;4.10.3 in public
 [debug] == resolving dependencies edu.stanford.nlp#stanford-corenlp;3.7.0->org.apache.lucene#lucene-analyzers-common;4.10.3 [compile->compile(*)]
 [debug] == resolving dependencies org.apache.lucene#lucene-analyzers-common;4.10.3->org.apache.lucene#lucene-core;4.10.3 [compile->master(compile)]
 [debug] == resolving dependencies org.apache.lucene#lucene-analyzers-common;4.10.3->org.apache.lucene#lucene-core;4.10.3 [compile->compile(*)]
@@ -155,8 +404,24 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [info] Resolving javax.servlet#javax.servlet-api;3.0.1 ...
 [debug] sbt-chain: Checking cache for: dependency: javax.servlet#javax.servlet-api;3.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: javax.servlet#javax.servlet-api;3.0.1
-[debug] 	found javax.servlet#javax.servlet-api;3.0.1 in sbt-chain
+[info] Resolving javax.servlet#javax.servlet-api;3.0.1 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: javax.servlet#javax.servlet-api;3.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried /home/pooja/.ivy2/local/javax.servlet/javax.servlet-api/3.0.1/ivys/ivy.xml
+[debug] 	local: no ivy file found for javax.servlet#javax.servlet-api;3.0.1
+[debug] 		tried https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.pom
+[debug] 	public: found md file for javax.servlet#javax.servlet-api;3.0.1
+[debug] 		=> https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.pom (3.0.1)
+[debug] downloading https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.pom
+[debug] 	[SUCCESSFUL ] javax.servlet#javax.servlet-api;3.0.1!javax.servlet-api.pom(pom.original) (1123ms)
+[info] Resolving net.java#jvnet-parent;1 ...
+[debug] sbt-chain: Checking cache for: dependency: net.java#jvnet-parent;1 {}
+[debug] sbt-chain: module revision found in cache: net.java#jvnet-parent;1
+[debug] 		tried /home/pooja/.ivy2/local/javax.servlet/javax.servlet-api/3.0.1/jars/javax.servlet-api.jar
+[debug] 		tried https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar
+[debug] 	found javax.servlet#javax.servlet-api;3.0.1 in public
 [debug] == resolving dependencies edu.stanford.nlp#stanford-corenlp;3.7.0->javax.servlet#javax.servlet-api;3.0.1 [compile->compile(*)]
 [debug] == resolving dependencies edu.stanford.nlp#stanford-corenlp;3.7.0->javax.servlet#javax.servlet-api;3.0.1 [compile->runtime(*)]
 [debug] == resolving dependencies edu.stanford.nlp#stanford-corenlp;3.7.0->javax.servlet#javax.servlet-api;3.0.1 [compile->compile]
@@ -165,24 +430,83 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [info] Resolving com.io7m.xom#xom;1.2.10 ...
 [debug] sbt-chain: Checking cache for: dependency: com.io7m.xom#xom;1.2.10 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: com.io7m.xom#xom;1.2.10
-[debug] 	found com.io7m.xom#xom;1.2.10 in sbt-chain
+[info] Resolving com.io7m.xom#xom;1.2.10 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: com.io7m.xom#xom;1.2.10 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried /home/pooja/.ivy2/local/com.io7m.xom/xom/1.2.10/ivys/ivy.xml
+[debug] 	local: no ivy file found for com.io7m.xom#xom;1.2.10
+[debug] 		tried https://repo1.maven.org/maven2/com/io7m/xom/xom/1.2.10/xom-1.2.10.pom
+[debug] 	public: found md file for com.io7m.xom#xom;1.2.10
+[debug] 		=> https://repo1.maven.org/maven2/com/io7m/xom/xom/1.2.10/xom-1.2.10.pom (1.2.10)
+[debug] downloading https://repo1.maven.org/maven2/com/io7m/xom/xom/1.2.10/xom-1.2.10.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/io7m/xom/xom/1.2.10/xom-1.2.10.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/io7m/xom/xom/1.2.10/xom-1.2.10.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/io7m/xom/xom/1.2.10/xom-1.2.10.pom
+[debug] 	[SUCCESSFUL ] com.io7m.xom#xom;1.2.10!xom.pom(pom.original) (1091ms)
+[debug] 		tried /home/pooja/.ivy2/local/com.io7m.xom/xom/1.2.10/jars/xom.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/io7m/xom/xom/1.2.10/xom-1.2.10.jar
+[debug] 	found com.io7m.xom#xom;1.2.10 in public
 [debug] == resolving dependencies edu.stanford.nlp#stanford-corenlp;3.7.0->com.io7m.xom#xom;1.2.10 [compile->compile(*)]
 [debug] == resolving dependencies com.io7m.xom#xom;1.2.10->xml-apis#xml-apis;1.3.03 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [info] Resolving xml-apis#xml-apis;1.3.03 ...
 [debug] sbt-chain: Checking cache for: dependency: xml-apis#xml-apis;1.3.03 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: xml-apis#xml-apis;1.3.03
-[debug] 	found xml-apis#xml-apis;1.3.03 in sbt-chain
+[info] Resolving xml-apis#xml-apis;1.3.03 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: xml-apis#xml-apis;1.3.03 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried /home/pooja/.ivy2/local/xml-apis/xml-apis/1.3.03/ivys/ivy.xml
+[debug] 	local: no ivy file found for xml-apis#xml-apis;1.3.03
+[debug] 		tried https://repo1.maven.org/maven2/xml-apis/xml-apis/1.3.03/xml-apis-1.3.03.pom
+[debug] 	public: found md file for xml-apis#xml-apis;1.3.03
+[debug] 		=> https://repo1.maven.org/maven2/xml-apis/xml-apis/1.3.03/xml-apis-1.3.03.pom (1.3.03)
+[debug] downloading https://repo1.maven.org/maven2/xml-apis/xml-apis/1.3.03/xml-apis-1.3.03.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/xml-apis/xml-apis/1.3.03/xml-apis-1.3.03.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/xml-apis/xml-apis/1.3.03/xml-apis-1.3.03.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/xml-apis/xml-apis/1.3.03/xml-apis-1.3.03.pom
+[debug] 	[SUCCESSFUL ] xml-apis#xml-apis;1.3.03!xml-apis.pom(pom.original) (1057ms)
+[info] Resolving org.apache#apache;1 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache#apache;1 {}
+[info] Resolving org.apache#apache;1 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.apache#apache;1 {}
+[debug] 		tried /home/pooja/.ivy2/local/org.apache/apache/1/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.apache#apache;1
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/apache/1/apache-1.pom
+[debug] 	public: found md file for org.apache#apache;1
+[debug] 		=> https://repo1.maven.org/maven2/org/apache/apache/1/apache-1.pom (1)
+[debug] downloading https://repo1.maven.org/maven2/org/apache/apache/1/apache-1.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/apache/1/apache-1.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/apache/1/apache-1.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/apache/1/apache-1.pom
+[debug] 	[SUCCESSFUL ] org.apache#apache;1!apache.pom(pom.original) (1058ms)
+[debug] 		tried /home/pooja/.ivy2/local/org.apache/apache/1/jars/apache.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/apache/1/apache-1.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/apache/1/apache-1.jar
+[debug] 		tried /home/pooja/.ivy2/local/xml-apis/xml-apis/1.3.03/jars/xml-apis.jar
+[debug] 		tried https://repo1.maven.org/maven2/xml-apis/xml-apis/1.3.03/xml-apis-1.3.03.jar
+[debug] 	found xml-apis#xml-apis;1.3.03 in public
 [debug] == resolving dependencies com.io7m.xom#xom;1.2.10->xml-apis#xml-apis;1.3.03 [compile->compile(*)]
 [debug] == resolving dependencies com.io7m.xom#xom;1.2.10->xerces#xercesImpl;2.8.0 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [info] Resolving xerces#xercesImpl;2.8.0 ...
 [debug] sbt-chain: Checking cache for: dependency: xerces#xercesImpl;2.8.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: xerces#xercesImpl;2.8.0
-[debug] 	found xerces#xercesImpl;2.8.0 in sbt-chain
+[info] Resolving xerces#xercesImpl;2.8.0 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: xerces#xercesImpl;2.8.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried /home/pooja/.ivy2/local/xerces/xercesImpl/2.8.0/ivys/ivy.xml
+[debug] 	local: no ivy file found for xerces#xercesImpl;2.8.0
+[debug] 		tried https://repo1.maven.org/maven2/xerces/xercesImpl/2.8.0/xercesImpl-2.8.0.pom
+[debug] 	public: found md file for xerces#xercesImpl;2.8.0
+[debug] 		=> https://repo1.maven.org/maven2/xerces/xercesImpl/2.8.0/xercesImpl-2.8.0.pom (2.8.0)
+[debug] downloading https://repo1.maven.org/maven2/xerces/xercesImpl/2.8.0/xercesImpl-2.8.0.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/xerces/xercesImpl/2.8.0/xercesImpl-2.8.0.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/xerces/xercesImpl/2.8.0/xercesImpl-2.8.0.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/xerces/xercesImpl/2.8.0/xercesImpl-2.8.0.pom
+[debug] 	[SUCCESSFUL ] xerces#xercesImpl;2.8.0!xercesImpl.pom(pom.original) (1103ms)
+[info] Resolving org.apache#apache;1 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache#apache;1 {}
+[debug] sbt-chain: module revision found in cache: org.apache#apache;1
+[debug] 		tried /home/pooja/.ivy2/local/xerces/xercesImpl/2.8.0/jars/xercesImpl.jar
+[debug] 		tried https://repo1.maven.org/maven2/xerces/xercesImpl/2.8.0/xercesImpl-2.8.0.jar
+[debug] 	found xerces#xercesImpl;2.8.0 in public
 [debug] == resolving dependencies com.io7m.xom#xom;1.2.10->xerces#xercesImpl;2.8.0 [compile->compile(*)]
 [debug] == resolving dependencies xerces#xercesImpl;2.8.0->xml-apis#xml-apis;1.3.03 [compile->master(compile)]
 [debug] == resolving dependencies xerces#xercesImpl;2.8.0->xml-apis#xml-apis;1.3.03 [compile->compile(*)]
@@ -191,8 +515,21 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [info] Resolving xalan#xalan;2.7.0 ...
 [debug] sbt-chain: Checking cache for: dependency: xalan#xalan;2.7.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: xalan#xalan;2.7.0
-[debug] 	found xalan#xalan;2.7.0 in sbt-chain
+[info] Resolving xalan#xalan;2.7.0 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: xalan#xalan;2.7.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried /home/pooja/.ivy2/local/xalan/xalan/2.7.0/ivys/ivy.xml
+[debug] 	local: no ivy file found for xalan#xalan;2.7.0
+[debug] 		tried https://repo1.maven.org/maven2/xalan/xalan/2.7.0/xalan-2.7.0.pom
+[debug] 	public: found md file for xalan#xalan;2.7.0
+[debug] 		=> https://repo1.maven.org/maven2/xalan/xalan/2.7.0/xalan-2.7.0.pom (2.7.0)
+[debug] downloading https://repo1.maven.org/maven2/xalan/xalan/2.7.0/xalan-2.7.0.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/xalan/xalan/2.7.0/xalan-2.7.0.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/xalan/xalan/2.7.0/xalan-2.7.0.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/xalan/xalan/2.7.0/xalan-2.7.0.pom
+[debug] 	[SUCCESSFUL ] xalan#xalan;2.7.0!xalan.pom(pom.original) (1058ms)
+[debug] 		tried /home/pooja/.ivy2/local/xalan/xalan/2.7.0/jars/xalan.jar
+[debug] 		tried https://repo1.maven.org/maven2/xalan/xalan/2.7.0/xalan-2.7.0.jar
+[debug] 	found xalan#xalan;2.7.0 in public
 [debug] == resolving dependencies com.io7m.xom#xom;1.2.10->xalan#xalan;2.7.0 [compile->compile(*)]
 [debug] == resolving dependencies xalan#xalan;2.7.0->xml-apis#xml-apis;2.0.2 [compile->master(compile)]
 [debug] == resolving dependencies xalan#xalan;2.7.0->xml-apis#xml-apis;1.3.03 [compile->master(compile)]
@@ -214,8 +551,21 @@
 [debug] == resolving dependencies edu.stanford.nlp#stanford-corenlp;3.7.0->joda-time#joda-time;2.9 [compile->master(compile)]
 [info] Resolving joda-time#joda-time;2.9 ...
 [debug] sbt-chain: Checking cache for: dependency: joda-time#joda-time;2.9 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: joda-time#joda-time;2.9
-[debug] 	found joda-time#joda-time;2.9 in sbt-chain
+[info] Resolving joda-time#joda-time;2.9 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: joda-time#joda-time;2.9 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried /home/pooja/.ivy2/local/joda-time/joda-time/2.9/ivys/ivy.xml
+[debug] 	local: no ivy file found for joda-time#joda-time;2.9
+[debug] 		tried https://repo1.maven.org/maven2/joda-time/joda-time/2.9/joda-time-2.9.pom
+[debug] 	public: found md file for joda-time#joda-time;2.9
+[debug] 		=> https://repo1.maven.org/maven2/joda-time/joda-time/2.9/joda-time-2.9.pom (2.9)
+[debug] downloading https://repo1.maven.org/maven2/joda-time/joda-time/2.9/joda-time-2.9.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/joda-time/joda-time/2.9/joda-time-2.9.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/joda-time/joda-time/2.9/joda-time-2.9.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/joda-time/joda-time/2.9/joda-time-2.9.pom
+[debug] 	[SUCCESSFUL ] joda-time#joda-time;2.9!joda-time.pom(pom.original) (1122ms)
+[debug] 		tried /home/pooja/.ivy2/local/joda-time/joda-time/2.9/jars/joda-time.jar
+[debug] 		tried https://repo1.maven.org/maven2/joda-time/joda-time/2.9/joda-time-2.9.jar
+[debug] 	found joda-time#joda-time;2.9 in public
 [debug] == resolving dependencies edu.stanford.nlp#stanford-corenlp;3.7.0->joda-time#joda-time;2.9 [compile->compile(*)]
 [debug] == resolving dependencies edu.stanford.nlp#stanford-corenlp;3.7.0->joda-time#joda-time;2.9 [compile->runtime(*)]
 [debug] == resolving dependencies edu.stanford.nlp#stanford-corenlp;3.7.0->joda-time#joda-time;2.9 [compile->compile]
@@ -224,8 +574,24 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [info] Resolving com.googlecode.efficient-java-matrix-library#ejml;0.23 ...
 [debug] sbt-chain: Checking cache for: dependency: com.googlecode.efficient-java-matrix-library#ejml;0.23 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: com.googlecode.efficient-java-matrix-library#ejml;0.23
-[debug] 	found com.googlecode.efficient-java-matrix-library#ejml;0.23 in sbt-chain
+[info] Resolving com.googlecode.efficient-java-matrix-library#ejml;0.23 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: com.googlecode.efficient-java-matrix-library#ejml;0.23 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried /home/pooja/.ivy2/local/com.googlecode.efficient-java-matrix-library/ejml/0.23/ivys/ivy.xml
+[debug] 	local: no ivy file found for com.googlecode.efficient-java-matrix-library#ejml;0.23
+[debug] 		tried https://repo1.maven.org/maven2/com/googlecode/efficient-java-matrix-library/ejml/0.23/ejml-0.23.pom
+[debug] 	public: found md file for com.googlecode.efficient-java-matrix-library#ejml;0.23
+[debug] 		=> https://repo1.maven.org/maven2/com/googlecode/efficient-java-matrix-library/ejml/0.23/ejml-0.23.pom (0.23)
+[debug] downloading https://repo1.maven.org/maven2/com/googlecode/efficient-java-matrix-library/ejml/0.23/ejml-0.23.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/googlecode/efficient-java-matrix-library/ejml/0.23/ejml-0.23.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/googlecode/efficient-java-matrix-library/ejml/0.23/ejml-0.23.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/googlecode/efficient-java-matrix-library/ejml/0.23/ejml-0.23.pom
+[debug] 	[SUCCESSFUL ] com.googlecode.efficient-java-matrix-library#ejml;0.23!ejml.pom(pom.original) (1060ms)
+[info] Resolving org.sonatype.oss#oss-parent;7 ...
+[debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}
+[debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7
+[debug] 		tried /home/pooja/.ivy2/local/com.googlecode.efficient-java-matrix-library/ejml/0.23/jars/ejml.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/googlecode/efficient-java-matrix-library/ejml/0.23/ejml-0.23.jar
+[debug] 	found com.googlecode.efficient-java-matrix-library#ejml;0.23 in public
 [debug] == resolving dependencies edu.stanford.nlp#stanford-corenlp;3.7.0->com.googlecode.efficient-java-matrix-library#ejml;0.23 [compile->compile(*)]
 [debug] == resolving dependencies edu.stanford.nlp#stanford-corenlp;3.7.0->com.googlecode.efficient-java-matrix-library#ejml;0.23 [compile->runtime(*)]
 [debug] == resolving dependencies edu.stanford.nlp#stanford-corenlp;3.7.0->com.googlecode.efficient-java-matrix-library#ejml;0.23 [compile->compile]
@@ -234,8 +600,41 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [info] Resolving org.glassfish#javax.json;1.0.4 ...
 [debug] sbt-chain: Checking cache for: dependency: org.glassfish#javax.json;1.0.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: org.glassfish#javax.json;1.0.4
-[debug] 	found org.glassfish#javax.json;1.0.4 in sbt-chain
+[info] Resolving org.glassfish#javax.json;1.0.4 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.glassfish#javax.json;1.0.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried /home/pooja/.ivy2/local/org.glassfish/javax.json/1.0.4/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.glassfish#javax.json;1.0.4
+[debug] 		tried https://repo1.maven.org/maven2/org/glassfish/javax.json/1.0.4/javax.json-1.0.4.pom
+[debug] 	public: found md file for org.glassfish#javax.json;1.0.4
+[debug] 		=> https://repo1.maven.org/maven2/org/glassfish/javax.json/1.0.4/javax.json-1.0.4.pom (1.0.4)
+[debug] downloading https://repo1.maven.org/maven2/org/glassfish/javax.json/1.0.4/javax.json-1.0.4.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/glassfish/javax.json/1.0.4/javax.json-1.0.4.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/glassfish/javax.json/1.0.4/javax.json-1.0.4.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/glassfish/javax.json/1.0.4/javax.json-1.0.4.pom
+[debug] 	[SUCCESSFUL ] org.glassfish#javax.json;1.0.4!javax.json.pom(pom.original) (1072ms)
+[info] Resolving org.glassfish#json;1.0.4 ...
+[debug] sbt-chain: Checking cache for: dependency: org.glassfish#json;1.0.4 {}
+[info] Resolving org.glassfish#json;1.0.4 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.glassfish#json;1.0.4 {}
+[debug] 		tried /home/pooja/.ivy2/local/org.glassfish/json/1.0.4/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.glassfish#json;1.0.4
+[debug] 		tried https://repo1.maven.org/maven2/org/glassfish/json/1.0.4/json-1.0.4.pom
+[debug] 	public: found md file for org.glassfish#json;1.0.4
+[debug] 		=> https://repo1.maven.org/maven2/org/glassfish/json/1.0.4/json-1.0.4.pom (1.0.4)
+[debug] downloading https://repo1.maven.org/maven2/org/glassfish/json/1.0.4/json-1.0.4.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/glassfish/json/1.0.4/json-1.0.4.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/glassfish/json/1.0.4/json-1.0.4.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/glassfish/json/1.0.4/json-1.0.4.pom
+[debug] 	[SUCCESSFUL ] org.glassfish#json;1.0.4!json.pom(pom.original) (1114ms)
+[info] Resolving net.java#jvnet-parent;3 ...
+[debug] sbt-chain: Checking cache for: dependency: net.java#jvnet-parent;3 {}
+[debug] sbt-chain: module revision found in cache: net.java#jvnet-parent;3
+[debug] 		tried /home/pooja/.ivy2/local/org.glassfish/json/1.0.4/jars/json.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/glassfish/json/1.0.4/json-1.0.4.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/glassfish/json/1.0.4/json-1.0.4.jar
+[debug] 		tried /home/pooja/.ivy2/local/org.glassfish/javax.json/1.0.4/bundles/javax.json.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/glassfish/javax.json/1.0.4/javax.json-1.0.4.jar
+[debug] 	found org.glassfish#javax.json;1.0.4 in public
 [debug] == resolving dependencies edu.stanford.nlp#stanford-corenlp;3.7.0->org.glassfish#javax.json;1.0.4 [compile->compile(*)]
 [debug] == resolving dependencies edu.stanford.nlp#stanford-corenlp;3.7.0->org.glassfish#javax.json;1.0.4 [compile->runtime(*)]
 [debug] == resolving dependencies edu.stanford.nlp#stanford-corenlp;3.7.0->org.glassfish#javax.json;1.0.4 [compile->compile]
@@ -254,8 +653,24 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [info] Resolving com.google.protobuf#protobuf-java;2.6.1 ...
 [debug] sbt-chain: Checking cache for: dependency: com.google.protobuf#protobuf-java;2.6.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: com.google.protobuf#protobuf-java;2.6.1
-[debug] 	found com.google.protobuf#protobuf-java;2.6.1 in sbt-chain
+[info] Resolving com.google.protobuf#protobuf-java;2.6.1 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: com.google.protobuf#protobuf-java;2.6.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried /home/pooja/.ivy2/local/com.google.protobuf/protobuf-java/2.6.1/ivys/ivy.xml
+[debug] 	local: no ivy file found for com.google.protobuf#protobuf-java;2.6.1
+[debug] 		tried https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.6.1/protobuf-java-2.6.1.pom
+[debug] 	public: found md file for com.google.protobuf#protobuf-java;2.6.1
+[debug] 		=> https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.6.1/protobuf-java-2.6.1.pom (2.6.1)
+[debug] downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.6.1/protobuf-java-2.6.1.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.6.1/protobuf-java-2.6.1.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.6.1/protobuf-java-2.6.1.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.6.1/protobuf-java-2.6.1.pom
+[debug] 	[SUCCESSFUL ] com.google.protobuf#protobuf-java;2.6.1!protobuf-java.pom(pom.original) (1075ms)
+[info] Resolving com.google#google;1 ...
+[debug] sbt-chain: Checking cache for: dependency: com.google#google;1 {}
+[debug] sbt-chain: module revision found in cache: com.google#google;1
+[debug] 		tried /home/pooja/.ivy2/local/com.google.protobuf/protobuf-java/2.6.1/bundles/protobuf-java.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.6.1/protobuf-java-2.6.1.jar
+[debug] 	found com.google.protobuf#protobuf-java;2.6.1 in public
 [debug] == resolving dependencies edu.stanford.nlp#stanford-corenlp;3.7.0->com.google.protobuf#protobuf-java;2.6.1 [compile->compile(*)]
 [debug] == resolving dependencies edu.stanford.nlp#stanford-corenlp;3.7.0->com.google.protobuf#protobuf-java;2.6.1 [compile->runtime(*)]
 [debug] == resolving dependencies edu.stanford.nlp#stanford-corenlp;3.7.0->com.google.protobuf#protobuf-java;2.6.1 [compile->compile]
@@ -298,8 +713,38 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [info] Resolving org.slf4j#slf4j-simple;1.6.1 ...
 [debug] sbt-chain: Checking cache for: dependency: org.slf4j#slf4j-simple;1.6.1 {compile=[default(compile)]}
-[debug] sbt-chain: module revision found in cache: org.slf4j#slf4j-simple;1.6.1
-[debug] 	found org.slf4j#slf4j-simple;1.6.1 in sbt-chain
+[info] Resolving org.slf4j#slf4j-simple;1.6.1 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.slf4j#slf4j-simple;1.6.1 {compile=[default(compile)]}
+[debug] 		tried /home/pooja/.ivy2/local/org.slf4j/slf4j-simple/1.6.1/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.slf4j#slf4j-simple;1.6.1
+[debug] 		tried https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.6.1/slf4j-simple-1.6.1.pom
+[debug] 	public: found md file for org.slf4j#slf4j-simple;1.6.1
+[debug] 		=> https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.6.1/slf4j-simple-1.6.1.pom (1.6.1)
+[debug] downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.6.1/slf4j-simple-1.6.1.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.6.1/slf4j-simple-1.6.1.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.6.1/slf4j-simple-1.6.1.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.6.1/slf4j-simple-1.6.1.pom
+[debug] 	[SUCCESSFUL ] org.slf4j#slf4j-simple;1.6.1!slf4j-simple.pom(pom.original) (1060ms)
+[info] Resolving org.slf4j#slf4j-parent;1.6.1 ...
+[debug] sbt-chain: Checking cache for: dependency: org.slf4j#slf4j-parent;1.6.1 {}
+[info] Resolving org.slf4j#slf4j-parent;1.6.1 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.slf4j#slf4j-parent;1.6.1 {}
+[debug] 		tried /home/pooja/.ivy2/local/org.slf4j/slf4j-parent/1.6.1/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.slf4j#slf4j-parent;1.6.1
+[debug] 		tried https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.6.1/slf4j-parent-1.6.1.pom
+[debug] 	public: found md file for org.slf4j#slf4j-parent;1.6.1
+[debug] 		=> https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.6.1/slf4j-parent-1.6.1.pom (1.6.1)
+[debug] downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.6.1/slf4j-parent-1.6.1.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.6.1/slf4j-parent-1.6.1.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.6.1/slf4j-parent-1.6.1.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.6.1/slf4j-parent-1.6.1.pom
+[debug] 	[SUCCESSFUL ] org.slf4j#slf4j-parent;1.6.1!slf4j-parent.pom(pom.original) (1072ms)
+[debug] 		tried /home/pooja/.ivy2/local/org.slf4j/slf4j-parent/1.6.1/jars/slf4j-parent.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.6.1/slf4j-parent-1.6.1.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.6.1/slf4j-parent-1.6.1.jar
+[debug] 		tried /home/pooja/.ivy2/local/org.slf4j/slf4j-simple/1.6.1/jars/slf4j-simple.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.6.1/slf4j-simple-1.6.1.jar
+[debug] 	found org.slf4j#slf4j-simple;1.6.1 in public
 [debug] == resolving dependencies default#entityfinder_2.12;1.0->org.slf4j#slf4j-simple;1.6.1 [compile->runtime]
 [debug] == resolving dependencies default#entityfinder_2.12;1.0->org.slf4j#slf4j-simple;1.6.1 [compile->compile]
 [debug] == resolving dependencies org.slf4j#slf4j-simple;1.6.1->org.slf4j#slf4j-api;1.6.1 [compile->master(compile)]
@@ -2082,33 +2527,144 @@
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.1!scala-library.jar
-[debug] 	[NOT REQUIRED] org.apache.opennlp#opennlp-tools;1.7.2!opennlp-tools.jar(bundle)
-[debug] 	[NOT REQUIRED] edu.stanford.nlp#stanford-corenlp;3.7.0!stanford-corenlp.jar
-[debug] 	[NOT REQUIRED] org.slf4j#slf4j-simple;1.6.1!slf4j-simple.jar
-[debug] 	[NOT REQUIRED] com.apple#AppleJavaExtensions;1.4!AppleJavaExtensions.jar
-[debug] 	[NOT REQUIRED] de.jollyday#jollyday;0.4.9!jollyday.jar
-[debug] 	[NOT REQUIRED] org.apache.commons#commons-lang3;3.3.1!commons-lang3.jar
-[debug] 	[NOT REQUIRED] org.apache.lucene#lucene-queryparser;4.10.3!lucene-queryparser.jar
-[debug] 	[NOT REQUIRED] org.apache.lucene#lucene-analyzers-common;4.10.3!lucene-analyzers-common.jar
-[debug] 	[NOT REQUIRED] org.apache.lucene#lucene-queries;4.10.3!lucene-queries.jar
-[debug] 	[NOT REQUIRED] org.apache.lucene#lucene-core;4.10.3!lucene-core.jar
-[debug] 	[NOT REQUIRED] javax.servlet#javax.servlet-api;3.0.1!javax.servlet-api.jar
-[debug] 	[NOT REQUIRED] com.io7m.xom#xom;1.2.10!xom.jar
-[debug] 	[NOT REQUIRED] joda-time#joda-time;2.9!joda-time.jar
-[debug] 	[NOT REQUIRED] com.googlecode.efficient-java-matrix-library#ejml;0.23!ejml.jar
-[debug] 	[NOT REQUIRED] org.glassfish#javax.json;1.0.4!javax.json.jar(bundle)
-[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.12!slf4j-api.jar
-[debug] 	[NOT REQUIRED] com.google.protobuf#protobuf-java;2.6.1!protobuf-java.jar(bundle)
-[debug] 	[NOT REQUIRED] javax.xml.bind#jaxb-api;2.2.7!jaxb-api.jar
-[debug] 	[NOT REQUIRED] org.apache.lucene#lucene-sandbox;4.10.3!lucene-sandbox.jar
-[debug] 	[NOT REQUIRED] xml-apis#xml-apis;1.3.03!xml-apis.jar
-[debug] 	[NOT REQUIRED] xerces#xercesImpl;2.8.0!xercesImpl.jar
-[debug] 	[NOT REQUIRED] xalan#xalan;2.7.0!xalan.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/opennlp/opennlp-tools/1.7.2/opennlp-tools-1.7.2.jar
+[info] downloading https://repo1.maven.org/maven2/org/apache/opennlp/opennlp-tools/1.7.2/opennlp-tools-1.7.2.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/opennlp/opennlp-tools/1.7.2/opennlp-tools-1.7.2.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/opennlp/opennlp-tools/1.7.2/opennlp-tools-1.7.2.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/opennlp/opennlp-tools/1.7.2/opennlp-tools-1.7.2.jar
+[info] 	[SUCCESSFUL ] org.apache.opennlp#opennlp-tools;1.7.2!opennlp-tools.jar(bundle) (4555ms)
+[debug] 		tried https://repo1.maven.org/maven2/edu/stanford/nlp/stanford-corenlp/3.7.0/stanford-corenlp-3.7.0.jar
+[info] downloading https://repo1.maven.org/maven2/edu/stanford/nlp/stanford-corenlp/3.7.0/stanford-corenlp-3.7.0.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/edu/stanford/nlp/stanford-corenlp/3.7.0/stanford-corenlp-3.7.0.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/edu/stanford/nlp/stanford-corenlp/3.7.0/stanford-corenlp-3.7.0.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/edu/stanford/nlp/stanford-corenlp/3.7.0/stanford-corenlp-3.7.0.jar
+[info] 	[SUCCESSFUL ] edu.stanford.nlp#stanford-corenlp;3.7.0!stanford-corenlp.jar (31193ms)
+[debug] 		tried https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.6.1/slf4j-simple-1.6.1.jar
+[info] downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.6.1/slf4j-simple-1.6.1.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.6.1/slf4j-simple-1.6.1.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.6.1/slf4j-simple-1.6.1.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.6.1/slf4j-simple-1.6.1.jar
+[info] 	[SUCCESSFUL ] org.slf4j#slf4j-simple;1.6.1!slf4j-simple.jar (1077ms)
+[debug] 		tried https://repo1.maven.org/maven2/com/apple/AppleJavaExtensions/1.4/AppleJavaExtensions-1.4.jar
+[info] downloading https://repo1.maven.org/maven2/com/apple/AppleJavaExtensions/1.4/AppleJavaExtensions-1.4.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/apple/AppleJavaExtensions/1.4/AppleJavaExtensions-1.4.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/apple/AppleJavaExtensions/1.4/AppleJavaExtensions-1.4.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/apple/AppleJavaExtensions/1.4/AppleJavaExtensions-1.4.jar
+[info] 	[SUCCESSFUL ] com.apple#AppleJavaExtensions;1.4!AppleJavaExtensions.jar (1075ms)
+[debug] 		tried https://repo1.maven.org/maven2/de/jollyday/jollyday/0.4.9/jollyday-0.4.9.jar
+[info] downloading https://repo1.maven.org/maven2/de/jollyday/jollyday/0.4.9/jollyday-0.4.9.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/de/jollyday/jollyday/0.4.9/jollyday-0.4.9.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/de/jollyday/jollyday/0.4.9/jollyday-0.4.9.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/de/jollyday/jollyday/0.4.9/jollyday-0.4.9.jar
+[info] 	[SUCCESSFUL ] de.jollyday#jollyday;0.4.9!jollyday.jar (1407ms)
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.3.1/commons-lang3-3.3.1.jar
+[info] downloading https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.3.1/commons-lang3-3.3.1.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.3.1/commons-lang3-3.3.1.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.3.1/commons-lang3-3.3.1.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.3.1/commons-lang3-3.3.1.jar
+[info] 	[SUCCESSFUL ] org.apache.commons#commons-lang3;3.3.1!commons-lang3.jar (1736ms)
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/lucene/lucene-queryparser/4.10.3/lucene-queryparser-4.10.3.jar
+[info] downloading https://repo1.maven.org/maven2/org/apache/lucene/lucene-queryparser/4.10.3/lucene-queryparser-4.10.3.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/lucene/lucene-queryparser/4.10.3/lucene-queryparser-4.10.3.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/lucene/lucene-queryparser/4.10.3/lucene-queryparser-4.10.3.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/lucene/lucene-queryparser/4.10.3/lucene-queryparser-4.10.3.jar
+[info] 	[SUCCESSFUL ] org.apache.lucene#lucene-queryparser;4.10.3!lucene-queryparser.jar (2107ms)
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/lucene/lucene-analyzers-common/4.10.3/lucene-analyzers-common-4.10.3.jar
+[info] downloading https://repo1.maven.org/maven2/org/apache/lucene/lucene-analyzers-common/4.10.3/lucene-analyzers-common-4.10.3.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/lucene/lucene-analyzers-common/4.10.3/lucene-analyzers-common-4.10.3.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/lucene/lucene-analyzers-common/4.10.3/lucene-analyzers-common-4.10.3.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/lucene/lucene-analyzers-common/4.10.3/lucene-analyzers-common-4.10.3.jar
+[info] 	[SUCCESSFUL ] org.apache.lucene#lucene-analyzers-common;4.10.3!lucene-analyzers-common.jar (6352ms)
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/lucene/lucene-queries/4.10.3/lucene-queries-4.10.3.jar
+[info] downloading https://repo1.maven.org/maven2/org/apache/lucene/lucene-queries/4.10.3/lucene-queries-4.10.3.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/lucene/lucene-queries/4.10.3/lucene-queries-4.10.3.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/lucene/lucene-queries/4.10.3/lucene-queries-4.10.3.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/lucene/lucene-queries/4.10.3/lucene-queries-4.10.3.jar
+[info] 	[SUCCESSFUL ] org.apache.lucene#lucene-queries;4.10.3!lucene-queries.jar (1752ms)
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/lucene/lucene-core/4.10.3/lucene-core-4.10.3.jar
+[info] downloading https://repo1.maven.org/maven2/org/apache/lucene/lucene-core/4.10.3/lucene-core-4.10.3.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/lucene/lucene-core/4.10.3/lucene-core-4.10.3.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/lucene/lucene-core/4.10.3/lucene-core-4.10.3.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/lucene/lucene-core/4.10.3/lucene-core-4.10.3.jar
+[info] 	[SUCCESSFUL ] org.apache.lucene#lucene-core;4.10.3!lucene-core.jar (11308ms)
+[debug] 		tried https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar
+[info] downloading https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar
+[info] 	[SUCCESSFUL ] javax.servlet#javax.servlet-api;3.0.1!javax.servlet-api.jar (1234ms)
+[debug] 		tried https://repo1.maven.org/maven2/com/io7m/xom/xom/1.2.10/xom-1.2.10.jar
+[info] downloading https://repo1.maven.org/maven2/com/io7m/xom/xom/1.2.10/xom-1.2.10.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/io7m/xom/xom/1.2.10/xom-1.2.10.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/io7m/xom/xom/1.2.10/xom-1.2.10.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/io7m/xom/xom/1.2.10/xom-1.2.10.jar
+[info] 	[SUCCESSFUL ] com.io7m.xom#xom;1.2.10!xom.jar (1758ms)
+[debug] 		tried https://repo1.maven.org/maven2/joda-time/joda-time/2.9/joda-time-2.9.jar
+[info] downloading https://repo1.maven.org/maven2/joda-time/joda-time/2.9/joda-time-2.9.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/joda-time/joda-time/2.9/joda-time-2.9.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/joda-time/joda-time/2.9/joda-time-2.9.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/joda-time/joda-time/2.9/joda-time-2.9.jar
+[info] 	[SUCCESSFUL ] joda-time#joda-time;2.9!joda-time.jar (2219ms)
+[debug] 		tried https://repo1.maven.org/maven2/com/googlecode/efficient-java-matrix-library/ejml/0.23/ejml-0.23.jar
+[info] downloading https://repo1.maven.org/maven2/com/googlecode/efficient-java-matrix-library/ejml/0.23/ejml-0.23.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/googlecode/efficient-java-matrix-library/ejml/0.23/ejml-0.23.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/googlecode/efficient-java-matrix-library/ejml/0.23/ejml-0.23.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/googlecode/efficient-java-matrix-library/ejml/0.23/ejml-0.23.jar
+[info] 	[SUCCESSFUL ] com.googlecode.efficient-java-matrix-library#ejml;0.23!ejml.jar (1669ms)
+[debug] 		tried https://repo1.maven.org/maven2/org/glassfish/javax.json/1.0.4/javax.json-1.0.4.jar
+[info] downloading https://repo1.maven.org/maven2/org/glassfish/javax.json/1.0.4/javax.json-1.0.4.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/glassfish/javax.json/1.0.4/javax.json-1.0.4.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/glassfish/javax.json/1.0.4/javax.json-1.0.4.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/glassfish/javax.json/1.0.4/javax.json-1.0.4.jar
+[info] 	[SUCCESSFUL ] org.glassfish#javax.json;1.0.4!javax.json.jar(bundle) (1226ms)
+[debug] 		tried /home/pooja/.ivy2/local/org.slf4j/slf4j-api/1.7.12/jars/slf4j-api.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar
+[info] downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar
+[info] 	[SUCCESSFUL ] org.slf4j#slf4j-api;1.7.12!slf4j-api.jar (1410ms)
+[debug] 		tried https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.6.1/protobuf-java-2.6.1.jar
+[info] downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.6.1/protobuf-java-2.6.1.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.6.1/protobuf-java-2.6.1.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.6.1/protobuf-java-2.6.1.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.6.1/protobuf-java-2.6.1.jar
+[info] 	[SUCCESSFUL ] com.google.protobuf#protobuf-java;2.6.1!protobuf-java.jar(bundle) (2086ms)
+[debug] 		tried https://repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.2.7/jaxb-api-2.2.7.jar
+[info] downloading https://repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.2.7/jaxb-api-2.2.7.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.2.7/jaxb-api-2.2.7.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.2.7/jaxb-api-2.2.7.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.2.7/jaxb-api-2.2.7.jar
+[info] 	[SUCCESSFUL ] javax.xml.bind#jaxb-api;2.2.7!jaxb-api.jar (1195ms)
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/lucene/lucene-sandbox/4.10.3/lucene-sandbox-4.10.3.jar
+[info] downloading https://repo1.maven.org/maven2/org/apache/lucene/lucene-sandbox/4.10.3/lucene-sandbox-4.10.3.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/lucene/lucene-sandbox/4.10.3/lucene-sandbox-4.10.3.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/lucene/lucene-sandbox/4.10.3/lucene-sandbox-4.10.3.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/lucene/lucene-sandbox/4.10.3/lucene-sandbox-4.10.3.jar
+[info] 	[SUCCESSFUL ] org.apache.lucene#lucene-sandbox;4.10.3!lucene-sandbox.jar (1226ms)
+[debug] 		tried https://repo1.maven.org/maven2/xml-apis/xml-apis/1.3.03/xml-apis-1.3.03.jar
+[info] downloading https://repo1.maven.org/maven2/xml-apis/xml-apis/1.3.03/xml-apis-1.3.03.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/xml-apis/xml-apis/1.3.03/xml-apis-1.3.03.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/xml-apis/xml-apis/1.3.03/xml-apis-1.3.03.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/xml-apis/xml-apis/1.3.03/xml-apis-1.3.03.jar
+[info] 	[SUCCESSFUL ] xml-apis#xml-apis;1.3.03!xml-apis.jar (1442ms)
+[debug] 		tried https://repo1.maven.org/maven2/xerces/xercesImpl/2.8.0/xercesImpl-2.8.0.jar
+[info] downloading https://repo1.maven.org/maven2/xerces/xercesImpl/2.8.0/xercesImpl-2.8.0.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/xerces/xercesImpl/2.8.0/xercesImpl-2.8.0.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/xerces/xercesImpl/2.8.0/xercesImpl-2.8.0.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/xerces/xercesImpl/2.8.0/xercesImpl-2.8.0.jar
+[info] 	[SUCCESSFUL ] xerces#xercesImpl;2.8.0!xercesImpl.jar (3059ms)
+[debug] 		tried https://repo1.maven.org/maven2/xalan/xalan/2.7.0/xalan-2.7.0.jar
+[info] downloading https://repo1.maven.org/maven2/xalan/xalan/2.7.0/xalan-2.7.0.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/xalan/xalan/2.7.0/xalan-2.7.0.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/xalan/xalan/2.7.0/xalan-2.7.0.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/xalan/xalan/2.7.0/xalan-2.7.0.jar
+[info] 	[SUCCESSFUL ] xalan#xalan;2.7.0!xalan.jar (6061ms)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.1!scala-compiler.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.1!scala-reflect.jar
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(bundle)
 [debug] 	[NOT REQUIRED] jline#jline;2.14.1!jline.jar
-[debug] :: resolution report :: resolve 588ms :: artifacts dl 11ms
+[debug] :: resolution report :: resolve 51531ms :: artifacts dl 87203ms
 [debug] 	report for default#entityfinder_2.12;1.0 compile produced in /home/pooja/Downloads/EntityFinder/target/resolution-cache/reports/default-entityfinder_2.12-compile.xml
 [debug] 	report for default#entityfinder_2.12;1.0 runtime produced in /home/pooja/Downloads/EntityFinder/target/resolution-cache/reports/default-entityfinder_2.12-runtime.xml
 [debug] 	report for default#entityfinder_2.12;1.0 test produced in /home/pooja/Downloads/EntityFinder/target/resolution-cache/reports/default-entityfinder_2.12-test.xml
@@ -2122,5 +2678,5 @@
 [debug] 	report for default#entityfinder_2.12;1.0 docs produced in /home/pooja/Downloads/EntityFinder/target/resolution-cache/reports/default-entityfinder_2.12-docs.xml
 [debug] 	report for default#entityfinder_2.12;1.0 pom produced in /home/pooja/Downloads/EntityFinder/target/resolution-cache/reports/default-entityfinder_2.12-pom.xml
 [debug] 	report for default#entityfinder_2.12;1.0 scala-tool produced in /home/pooja/Downloads/EntityFinder/target/resolution-cache/reports/default-entityfinder_2.12-scala-tool.xml
-[debug] 	resolve done (588ms resolve - 11ms download)
+[debug] 	resolve done (51531ms resolve - 87203ms download)
 [info] Done updating.

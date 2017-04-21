@@ -46,5 +46,6 @@
     <orderEntry type="library" name="SBT: com.apple:AppleJavaExtensions:1.4:jar" level="project" />
     <orderEntry type="library" name="SBT: org.apache.opennlp:opennlp-tools:1.7.2:jar" level="project" />
     <orderEntry type="library" name="SBT: org.slf4j:slf4j-simple:1.6.1:jar" level="project" />
+    <orderEntry type="library" name="DependenSee.3.6.0 (8)" level="project" />
   </component>
 </module>
